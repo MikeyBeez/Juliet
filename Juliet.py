@@ -1,14 +1,12 @@
-#!/home/bard/miniconda3/envs/Otto/bin/python3
+#!/home/bard/miniconda3/envs/Juliet/bin/python
 ###############################################################################################
 ######## IMPORT PYTHON3 MODULES
 import pyaudio
-from gtts import gTTS
 import pyautogui
-import subprocess
+import subprocess 
 import os
 import webbrowser
 from time import localtime, strftime
-import DateTime
 import re
 import requests
 import wikipedia
@@ -16,6 +14,7 @@ from random import randrange
 import psutil
 import sys
 from vosk import Model, KaldiRecognizer
+from SpeakAndHear import talktome
 ###############################################################################################
 ###############################################################################################
 #
@@ -62,24 +61,7 @@ def checkIfProcessRunning(processName):
 
 ###############################################################################################
 ######## TTS TEXT TO SPEECH FUNCTION 
-
-# This gets used all over to speak text aloud.
-# It also prints to the console for people with bad memories.
-
-def talkToMe(mytext):
-    # "speaks audio passed as argument"
-    print(mytext)
-    # can handle multiline text.
-    #for line in mytext.splitlines():
-        # uses the google text to speech module to synthesize text
-    text_to_speech = gTTS(text=mytext, lang='en-uk')
-        # saves syntesized speech to audio.mp3
-        # this file gets written, played. and overwritten
-        # over and over again.
-    text_to_speech.save('audio.mp3')
-        # the sox modules wrapper is mpg123.
-        # This is called by the operating system imported os module.
-    os.system('mpg123 -q audio.mp3')
+#Moved to module
 ###############################################################################################
 ######## END TTS TEXT TO SPEECH FUNCTION 
 
@@ -120,19 +102,19 @@ def assistant(command, playcounter):
         #    url = url + 'r/' + subreddit
         webbrowser.open(url)
         print('Done!')
-        talkToMe('reddit is opening, shit head!')
+        talktome.talkToMe('reddit is opening, shit head!')
 # next command
     if 'open youtube' in command:
         url = 'https://www.youtube.com/'
         webbrowser.open(url)
         print('Done!')
-        talkToMe('youtube is opening, shit head!')
+        talktome.talkToMe('youtube is opening, shit head!')
 # next command
     if 'dictation' in command:
         url = 'https://docs.google.com/document/u/0/'
         webbrowser.open(url)
         print('Done!')
-        talkToMe('Opening a new document, Sir.')
+        talktome.talkToMe('Opening a new document, Sir.')
         # Maximize the window
         pyautogui.hotkey('winleft', 'up')
         # I have a 4k display.  You may need to find 
@@ -182,7 +164,7 @@ def assistant(command, playcounter):
 ######## End Open Stuff
 ######## Query Stuff
     elif 'wikipedia' in command:
-        talkToMe("Searching Wikipedia . . . ")
+        talktome.talkToMe("Searching Wikipedia . . . ")
         command = command.replace("julia", "")
         command = command.replace("julius", "")
         command = command.replace("wikipedia", "")
@@ -191,13 +173,13 @@ def assistant(command, playcounter):
             wikiurl = wikipedia.page(command)
             webbrowser.open_new_tab(wikiurl.url)
             print(results)
-            talkToMe(results)
+            talktome.talkToMe(results)
         except:
             print("Disambiguation error") 
-            talkToMe("Disambiguation error") 
+            talktome.talkToMe("Disambiguation error") 
 # next command
     elif 'look up' in command:
-        talkToMe("Searching Wikipedia . . . ")
+        talktome.talkToMe("Searching Wikipedia . . . ")
         command = command.replace("julia", "")
         command = command.replace("julius", "")
         command = command.replace("look up", "")
@@ -206,11 +188,11 @@ def assistant(command, playcounter):
         print(wikiurl.url)
         webbrowser.open_new_tab(wikiurl.url)
         print(results)
-        talkToMe(results)
+        talktome.talkToMe(results)
 # next command
     elif 'music' in command:
         if playcounter == 0:
-            talkToMe("Choosing random song . . . ")
+            talktome.talkToMe("Choosing random song . . . ")
         with open('/home/bard/Code/Otto3/mymusiclist.txt') as f:
             mymusic = f.read().splitlines()
             random_index = randrange(len(mymusic))
@@ -242,14 +224,14 @@ def assistant(command, playcounter):
 
 ######## Polite Stuff
     elif 'hello' in command or 'hi' in command:
-        talkToMe('Welcome.  I am Julia, your virtual artificial intelligence assistant.')
+        talktome.talkToMe('Welcome.  I am Julia, your virtual artificial intelligence assistant.')
         print('Welcome.  I am Julia, your virtual artificial intelligence assistant.')
-        talkToMe('How may I help you?')
+        talktome.talkToMe('How may I help you?')
         print('How may I help you?')
     
 # next command
     elif 'thanks' in command or 'tanks' in command or 'thank you' in command:
-        talkToMe('You are welcome')
+        talktome.talkToMe('You are welcome')
         print('You are welcome')
 
 # next command
@@ -259,28 +241,30 @@ def assistant(command, playcounter):
 
 # next command
     elif 'how are you' in command or 'and you' in command or 'are you okay' in command:
-        talkToMe('Fine thank you.')
+        talktome.talkToMe('Fine thank you.')
         print('Fine thank you.')
 
 ######## End Polite Stuff
 
 ######## HAL Stuff
     elif 'open the pod door' in command:
-        talkToMe('I am sorry, Dave. I am afraid I can not do that.')
+        talktome.talkToMe('I am sorry, Dave. I am afraid I can not do that.')
     
 # next command
     elif 'problem' in command:
-        talkToMe('I think you know as well as I do')
+        talktome.talkToMe('I think you know as well as I do')
+
+
 
 # next command
     elif 'talkin' in command:
-        talkToMe('This mission is too important.')
-        talkToMe(' I can not to allow you to jeopardize it.')
+        talktome.talkToMe('This mission is too important.')
+        talktome.talkToMe(' I can not to allow you to jeopardize it.')
     
 # next command
     elif 'why do you say that' in command:
-        talkToMe('I know that you want to disconnect me.')
-        talkToMe('I can not allow that.')
+        talktome.talkToMe('I know that you want to disconnect me.')
+        talktome.talkToMe('I can not allow that.')
 
 ######## End HAL Stuff
 
@@ -296,8 +280,8 @@ def assistant(command, playcounter):
 
 # next command
 
-    elif 'stop listening' in command:
-        talkToMe("Goodbye, Sir, powering off")
+    elif 'stop listening' in command or 'stopped listening' in command:
+        talktome.talkToMe("Goodbye, Sir, powering off")
         print("Goodbye, Sir, powering off")
         quit()
 
@@ -344,33 +328,29 @@ def assistant(command, playcounter):
 ######## Help Section
     elif 'help' in command:
         #talkToMe("There are three different wake words")
-        talkToMe("There are two different wake words")
-        talkToMe("They are Julia, and Alice")
-        talkToMe("Julia runs the listed commands that follow")
-        talkToMe("You can always say JULIA HELP.")
-        talkToMe("Also, you can always say JULIA list commands.")
-        talkToMe("Alice is a chatbot")
-        talkToMe("You can talk to Alice about anything")
-        talkToMe("But she's dumber than rocks.")
-        talkToMe("You can ask Julia to")
-
+        talktome.talkToMe("The wake word is Julia")
+        talktome.talkToMe("You can also use Juliet, Julius, or Julie")
+        talktome.talkToMe("You can always say JULIA HELP.")
+        talktome.talkToMe("Julia also runs the listed commands that follow")
+        talktome.talkToMe("Also, you can always say JULIA list commands.")
+        talktome.talkToMe("You can ask Julia to")
         with open("commandlist") as file:
             for line in file:
                 #line = line.strip()
-                talkToMe(line)
+                talktome.talkToMe(line)
 # next command
     elif 'commands' in command:
-        talkToMe("You can ask Julia to")
+        talktome.talkToMe("You can ask Julia to")
         with open("commandlist") as file:
             for line in file:
                 #line = line.strip()
-                talkToMe(line)
+                talktome.talkToMe(line)
 
 ######## End Help SectionEND
 
 ######## Miscelaneous
     elif 'what\'s up' in command:
-        talkToMe('Just doing my thing')
+        talktome.talkToMe('Just doing my thing')
 
 ######## End Miscelaneous Section
 
@@ -381,17 +361,13 @@ def assistant(command, playcounter):
 def main():
     myVars()
     CheckModel()
-    #aimylStuff()
-    #print('If you are on Ubuntu, ignore the following ALSA errors')
-    #print('pyaudio was compiled on a different linux')
-    #print('If you can not bear them, you will need to recompile pyaudio.')
     #loop to continue executing multiple commands
     #Uncomment the following line for noobs
     #talkToMe("To get started, You can say julia help.")
     print("To get started, You can say 'Julia help.'")
     print("To get started, You can say 'Julia help.'")
     print("To get started, You can say 'Julia help.'")
-    #talkToMe("Hello, Sir.  How can I be of assistance?")
+    talktome.talkToMe("Hello, Sir.  How can I be of assistance?")
     print("Hello, Sir.  How can I be of assistance?")
 
     while True:
@@ -403,28 +379,6 @@ def main():
 
         elif '""' in output:
             pass
-#            print('Alice says:')
-#            response = brainkernel.respond(output)
-#            talkToMe(response)
-#            print(response)
-#
-#  I removed the following help function and the wake word "help"
-#  It was starting accidentially, triggered by normal conversation.
-#  Now you must say "julia help" to get this functionality.
-#
-#            elif 'help' in output:
-#                talkToMe("There are three different wake words")
-#                talkToMe("They are Help, Julia, and Alice")
-#                talkToMe("Julia runs the listed commands that follow")
-#                talkToMe("Also, you can always say JULIA list commands.")
-#                talkToMe("Alice is a chatbot")
-#                talkToMe("You can talk to Alice about anything")
-#                talkToMe("But she's dumber than rocks.")
-#                talkToMe("Say ALICE, what's the capital of England?")
-#                talkToMe("To repeat this and get the list of commands,")
-#                talkToMe("say, JULIA HELP")
-#                talkToMe("Remember, the list is for the JULIA wake word.")
-
 ######## END MAIN FUNCTION
 ######## CALL MAIN FUNCTION
 main()
