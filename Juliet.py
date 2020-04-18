@@ -1,18 +1,11 @@
 #!/home/bard/miniconda3/envs/Otto/bin/python3
-
+###############################################################################################
 ######## IMPORT PYTHON3 MODULES
 import pyaudio
-# from pygame import mixer
 from gtts import gTTS
-#import aiml
-#import speech_recognition as sr
-#import pocketsphinx
 import pyautogui
 import subprocess
-#import python-subprocess2
-# import socket
 import os
-# import glob
 import webbrowser
 from time import localtime, strftime
 import DateTime
@@ -23,14 +16,10 @@ from random import randrange
 import psutil
 import sys
 from vosk import Model, KaldiRecognizer
-
-#import smtplib
-#from weather import Weather
-
 ###############################################################################################
 ###############################################################################################
 #
-#   Welcome to Julia -- your virtual assistant
+#   Welcome to Juliet -- your virtual assistant
 #
 #   You can say "Julia Help" to get started
 #
@@ -43,14 +32,16 @@ def myVars():
     playcounter = 0
     wakeWord = "juli" 
 
+###############################################################################################
 #####Check Model 
 def CheckModel():
     if not os.path.exists("model-en"):
         print ("Please download the model from https://github.com/alphacep/kaldi-android-demo/releases and unpack as 'model-en' in the current folder.")
         exit(1)
-
+###############################################################################################
 #####End Check Model 
 
+###############################################################################################
 ####Check if a process is already running
 def checkIfProcessRunning(processName):
     '''
@@ -66,41 +57,10 @@ def checkIfProcessRunning(processName):
             pass
     return False
 
+###############################################################################################
 ####End Check if a process is already running
 
 ###############################################################################################
-######## THIS IS AIML SETUP STUFF
-# aiml is the stuff for the Alice chatbot.
-# aiml is modular; so it's easy to add to it.
-# all the plugin files are in the "standard" subdirectory. 
-
-# make a variable for the file name
-#def aimylStuff():
-#    BRAIN_FILE="brain.dump"
-
-    # This is creating a kernel object from the imported aiml module
-#    brainkernel = aiml.Kernel()
-
-    # To increase the startup speed of the bot, it is
-    # possible to save the parsed aiml files as a dump.
-    # This code checks if a dump exists, and
-    # otherwise loads the aiml from the xml files.
-    # Then it saves the brain dump as brain.dump.
-
-    # the kernel object we just made is empty.  We need to load it.
-#    if os.path.exists(BRAIN_FILE):
-#        print("Loading from brain file: " + BRAIN_FILE)
-#        brainkernel.loadBrain(BRAIN_FILE)
-#    else:
-#        print("Parsing aiml files")
-#        brainkernel.bootstrap(learnFiles="std-startup.aiml", commands="load aiml b")
-#        print("Saving brain file: " + BRAIN_FILE)
-#        brainkernel.saveBrain(BRAIN_FILE)
-
-######## END AIML SETUP STUFF
-
-###############################################################################################
-
 ######## TTS TEXT TO SPEECH FUNCTION 
 
 # This gets used all over to speak text aloud.
@@ -120,13 +80,11 @@ def talkToMe(mytext):
         # the sox modules wrapper is mpg123.
         # This is called by the operating system imported os module.
     os.system('mpg123 -q audio.mp3')
-
+###############################################################################################
 ######## END TTS TEXT TO SPEECH FUNCTION 
 
 ###############################################################################################
-
 ######## STT SPEECH TO TEXT FUNCTION THAT RETURNS THE VARIABLE: command
-
 def myCommand():
     # "listens for commands"
     # We imported vosk up above.
@@ -146,19 +104,14 @@ def myCommand():
             myList = myResult.split("text")
             command = myList[1]
             return command
-
 ######## END STT SPEECH TO TEXT FUNCTION THAT RETURNS THE VARIABLE: command
-
 ###############################################################################################
 
+###############################################################################################
 ######## BEGIN GIGANTIC ASSISTANT FUNCTION
-
 def assistant(command, playcounter):
-
 ######## Big If Statement for Executing Commands
-
 ######## Open Stuff
-
     if 'open reddit' in command:
         #reg_ex = re.search('open reddit (.*)', command)
         url = 'https://www.reddit.com/'
@@ -168,17 +121,13 @@ def assistant(command, playcounter):
         webbrowser.open(url)
         print('Done!')
         talkToMe('reddit is opening, shit head!')
-
 # next command
-
     if 'open youtube' in command:
         url = 'https://www.youtube.com/'
         webbrowser.open(url)
         print('Done!')
         talkToMe('youtube is opening, shit head!')
-
 # next command
-
     if 'dictation' in command:
         url = 'https://docs.google.com/document/u/0/'
         webbrowser.open(url)
@@ -193,9 +142,7 @@ def assistant(command, playcounter):
         # change duration if your internet is slow.
         pyautogui.moveTo(777, 777, duration=.3)
         pyautogui.click()
-
 # next command
-
     if 'search' in command:
         url = 'https://google.com'
         webbrowser.open_new_tab(url)
@@ -212,23 +159,17 @@ def assistant(command, playcounter):
         pyautogui.click()
         pyautogui.moveTo(2716, 1209, duration=.3)
         pyautogui.click()
-
 # next command
-
     if 'microphone' in command:
         pyautogui.hotkey('ctrl', 'S')
-
 # next command
-
     elif 'terminal' in command:
         #subprocess.call(["terminator"])
         subprocess.call(['terminator','-T', 'First'])
         pyautogui.moveTo(2201, 1001, duration=.1)
         pyautogui.click()
         pyautogui.hotkey('winleft', 'right')
-
 # next command
-
     elif 'open website' in command:
         reg_ex = re.search('open website (.+)', command)
         if reg_ex:
@@ -238,9 +179,7 @@ def assistant(command, playcounter):
             print('Done!')
         else:
             pass
-
 ######## End Open Stuff
-
 ######## Query Stuff
     elif 'wikipedia' in command:
         talkToMe("Searching Wikipedia . . . ")
@@ -256,8 +195,6 @@ def assistant(command, playcounter):
         except:
             print("Disambiguation error") 
             talkToMe("Disambiguation error") 
-
-    
 # next command
     elif 'look up' in command:
         talkToMe("Searching Wikipedia . . . ")
@@ -270,7 +207,6 @@ def assistant(command, playcounter):
         webbrowser.open_new_tab(wikiurl.url)
         print(results)
         talkToMe(results)
-    
 # next command
     elif 'music' in command:
         if playcounter == 0:
@@ -301,12 +237,8 @@ def assistant(command, playcounter):
                 assistant(command, playcounter)
             else:
                 playcounter=0
-
-    
 # next command
-
 ######## End Query Stuff
-
 
 ######## Polite Stuff
     elif 'hello' in command or 'hi' in command:
@@ -440,71 +372,9 @@ def assistant(command, playcounter):
     elif 'what\'s up' in command:
         talkToMe('Just doing my thing')
 
-# next command
-    # elif 'joke' in command:
-    #     res = requests.get(
-    #             'https://icanhazdadjoke.com/',
-    #             headers={"Accept":"application/json"}
-    #             )
-    #     if res.status_code == requests.codes.ok:
-    #         talkToMe(str(res.json()['joke']))
-    #     else:
-    #         talkToMe('oops!I ran out of jokes')
-
-#     elif 'current weather in' in command:
-#         reg_ex = re.search('current weather in (.*)', command)
-#         if reg_ex:
-#             city = reg_ex.group(1)
-#             weather = Weather()
-#             location = weather.lookup_by_location(city)
-#             condition = location.condition()
-#             talkToMe('The Current weather in %s is %s The tempeture is %.1f degree' % (city, condition.text(), (int(condition.temp())-32)/1.8))
-    #
-    # elif 'weather forecast in' in command:
-    #     reg_ex = re.search('weather forecast in (.*)', command)
-    #     if reg_ex:
-    #         city = reg_ex.group(1)
-    #         weather = Weather()
-    #         location = weather.lookup_by_location(city)
-    #         forecasts = location.forecast()
-    #         for i in range(0,3):
-    #             talkToMe('On %s will it %s. The maximum temperture will be %.1f degree.'
-    #                      'The lowest temperature will be %.1f degrees.' % (forecasts[i].date(), forecasts[i].text(), (int(forecasts[i].high())-32)/1.8, (int(forecasts[i].low())-32)/1.8))
-
-#    elif 'email' in command:
-#        talkToMe('Who is the recipient?')
-#        recipient = myCommand()
-#
-#        talkToMe('What should I say?')
-#        content = myCommand()
-#
-#        #init gmail SMTP
-#        mail = smtplib.SMTP('smtp.gmail.com', 587)
-#
-#        #identify to server
-#        mail.ehlo()
-#
-#        #encrypt session
-#        mail.starttls()
-#
-#        #login
-#        mail.login('username', 'password')
-#
-#        #send message
-#        mail.sendmail('John Fisher', 'JARVIS2.0@protonmail.com', content)
-#
-#        #end mail connection
-#        mail.close()
-#
-#        talkToMe('Email sent.')
-#
-#    else:
-#        talkToMe('I don\'t know what you mean!')
-#
 ######## End Miscelaneous Section
 
 ######## END GIGANTIC ASSISTANT FUNCTION
-
 ###############################################################################################
 
 ######## START MAIN PROGRAM
