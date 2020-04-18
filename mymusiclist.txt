@@ -1,0 +1,680 @@
+/home/bard/Music/Music/Sarah\ Vaughn/Unknown\ Album/Scat.mp3
+/home/bard/Music/Music/P.D.Q.\ Bach/Unknown\ Album/March\ of\ the\ Cute\ Little\ Wood\ Sprites.mp3
+/home/bard/Music/Music/Jay-Z,\ Dr.\ Dre,\ Snoop\ Dog,\ Ja\ Rule,\ Nate\ Dogg,\ Jennifer\ Lopez,\ 2Pac\ Ludacris,\ Missy\ Elliot,\ City\ High,\ Ray-J,\ Lil\'\ Kim,\ Sisqo,\ \ Nelly,\ Tyrese/Unknown\ Album/Rap\ Mix.mp3
+/home/bard/Music/Music/Fionna\ Apple/Unknown\ Album/Fast.mp3
+/home/bard/Music/Music/Guns\ And\ Roses/Compilation/05\ Patience.mp3
+/home/bard/Music/Music/Guns\ And\ Roses/Compilation/Knockin\ On\ Heaven\'s\ Door.mp3
+/home/bard/Music/Music/Guns\ And\ Roses/Compilation/10\ Welcome\ To\ The\ Jungle.mp3
+/home/bard/Music/Music/Aretha\ Franklin/Forrest\ Gump\ The\ Soundtrack/09\ Respect.mp3
+/home/bard/Music/Music/Aretha\ Franklin/Unknown\ Album/01\ Natural\ Woman.mp3
+/home/bard/Music/Music/Aretha\ Franklin/Unknown\ Album/Say\ a\ Little\ Pray.mp3
+/home/bard/Music/Music/SoundGarden/Unknown\ Album/Black\ Hole\ Sun.mp3
+/home/bard/Music/Music/Pink\ Floyd/Dark\ Side\ of\ the\ Moon/Dark\ Side\ of\ the\ Moon.mp3
+/home/bard/Music/Music/Bob\ Dylan/Compilation/Shelter\ from\ the\ Storm.mp3
+/home/bard/Music/Music/Bob\ Dylan/Compilation/Maggie\'s\ Farm.mp3
+/home/bard/Music/Music/Bob\ Dylan/Compilation/Bob\ Dylan\ -\ Shelter\ f#12D5C.mp3
+/home/bard/Music/Music/Bob\ Dylan/Compilation/It\'s\ Alright\ Ma.mp3
+/home/bard/Music/Music/Bob\ Dylan/Compilation/You\ Belong\ To\ Me.mp3
+/home/bard/Music/Music/Bob\ Dylan/Compilation/It\'s\ Alright\ Ma\ 1.mp3
+/home/bard/Music/Music/Bob\ Dylan/Compilation/11\ Buckets\ Of\ Rain\ 2.mp3
+/home/bard/Music/Music/Bob\ Dylan/Compilation/Shelter\ f#12D5C.mp3
+/home/bard/Music/Music/Bob\ Dylan/Compilation/11\ Buckets\ Of\ Rain.mp3
+/home/bard/Music/Music/Bob\ Dylan/Compilation/It\'s\ Alright\ Ma\ 3.mp3
+/home/bard/Music/Music/Bob\ Dylan/Compilation/Tangled\ Up\ In\ Blue.mp3
+/home/bard/Music/Music/Bob\ Dylan/Compilation/maggie\'s\ farm\ 2.mp3
+/home/bard/Music/Music/No\ Doubt/Rock\ Steady/02\ Hella\ Good.mp3
+/home/bard/Music/Music/No\ Doubt/Unknown\ Album/I\'m\ Just\ A\ Girl.mp3
+/home/bard/Music/Music/No\ Doubt/Unknown\ Album/Don\'t\ Speak.mp3
+/home/bard/Music/Music/dith\ Piaf/Unknown\ Album/Edith\ Piaff\ -\ La\ Vie\ En\ Rose.mp3
+/home/bard/Music/Music/John\ Cale,\ Nico,\ Brian\ Eno,\ Kevin\ Ayers/Unknown\ Album/Brian\ Eno\ \&\ John\ Cale\ \&\ Nico\ -\ Baby\'s\ On\ Fire.mp3
+/home/bard/Music/Music/Earth,\ Wind\ \&\ Fire/Mega\ Hits\ Dance\ Classics\ \(Volume\ 5\)/Shining\ Star.mp3
+/home/bard/Music/Music/Miles\ Davis,\ Wayne\ Shorter,\ Herbie\ Hancock,\ Ron\ Carter,\ Tony\ Williams/Unknown\ Album/Masqualero.mp3
+/home/bard/Music/Music/Johnny\ Cash/Compilation/Rockabilly\ Blues.mp3
+/home/bard/Music/Music/Johnny\ Cash/Compilation/I\'ve\ Been\ Everywhere.mp3
+/home/bard/Music/Music/Johnny\ Cash/Compilation/11\ I\'m\ On\ Fire.mp3
+/home/bard/Music/Music/Johnny\ Cash/Compilation/Daddy\ Sang\ Bass.mp3
+/home/bard/Music/Music/Johnny\ Cash/Compilation/Cash,\ Johnny\ -\ Cadillac.mp3
+/home/bard/Music/Music/Johnny\ Cash/Compilation/02\ Tennessee\ Flat\ Top\ Box.mp3
+/home/bard/Music/Music/Johnny\ Cash/Compilation/If\ I\ Were\ A\ Carpenter.mp3
+/home/bard/Music/Music/Johnny\ Cash/Compilation/Wabash\ Cannonball.mp3
+/home/bard/Music/Music/Iggy\ Pop/Compilation/08\ Little\ Doll.mp3
+/home/bard/Music/Music/Iggy\ Pop/Compilation/I\'m\ Bored.mp3
+/home/bard/Music/Music/Iggy\ Pop/Compilation/Cock\ In\ My\ Pocket.mp3
+/home/bard/Music/Music/Iggy\ Pop/Compilation/TV.mp3
+/home/bard/Music/Music/Iggy\ Pop/Compilation/1969\ 3.mp3
+/home/bard/Music/Music/Iggy\ Pop/Compilation/1969\ 2.mp3
+/home/bard/Music/Music/Iggy\ Pop/Compilation/I\ Need\ Somebody.mp3
+/home/bard/Music/Music/Iggy\ Pop/Compilation/Dirt.mp3
+/home/bard/Music/Music/Iggy\ Pop/Compilation/Gimme\ Danger.mp3
+/home/bard/Music/Music/Iggy\ Pop/Compilation/Lust\ for\ life.mp3
+/home/bard/Music/Music/Iggy\ Pop/Compilation/Search\ and\ Destroy.mp3
+/home/bard/Music/Music/Iggy\ Pop/Compilation/1969.mp3
+/home/bard/Music/Music/Iggy\ Pop/Compilation/I\ Need\ Somebody\ -\ Raw\ Power.mp3
+/home/bard/Music/Music/Snoop\ Doggy\ Dog/Unknown\ Album/Gin\ And\ Juice.mp3
+/home/bard/Music/Music/Dire\ Straits/Unknown\ Album/Sultans\ Of\ Swing.mp3
+/home/bard/Music/Music/Dire\ Straits/Unknown\ Album/Sultans\ of\ swing\ \(Limited\ edition\ 1991\).mp3
+/home/bard/Music/Music/Nelly/Nelly/05\ Must\ be\ the\ Money.mp3
+/home/bard/Music/Music/Nelly/Hot\ In\ Herre-\(Promo\ Single\)/Hot\ in\ Herre.mp3
+/home/bard/Music/Music/Nelly/Unknown\ Album/Hot\ In\ Here.mp3
+/home/bard/Music/Music/Nelly/Unknown\ Album/Nellyville.mp3
+/home/bard/Music/Music/Cracker/Unknown\ Album/Low.mp3
+/home/bard/Music/Music/James\ Brown/Compilation/Fatboy\ Slim\ vs\ James\ Brown\ -\ Funk\ Soul\ Brother.mp3
+/home/bard/Music/Music/James\ Brown/Compilation/The\ Big\ Payback.mp3
+/home/bard/Music/Music/James\ Brown/Compilation/11\ Night\ Train.mp3
+/home/bard/Music/Music/James\ Brown/Compilation/Sex\ Machine.mp3
+/home/bard/Music/Music/James\ Brown/Compilation/This\ Is\ A\ Man\'s\ World.mp3
+/home/bard/Music/Music/James\ Brown/Compilation/08\ Cold\ Sweat.mp3
+/home/bard/Music/Music/James\ Brown/Compilation/Get\ On\ The\ Good\ Foot.mp3
+/home/bard/Music/Music/James\ Brown/Compilation/Papas\ Got\ a\ brand\ New\ Bag.mp3
+/home/bard/Music/Music/Aleister\ Crowley/The\ Book\ of\ Lies/01\ 01\ -\ Chapters\ 0-50.mp3
+/home/bard/Music/Music/B52\'s/Compilation/Love\ Shack.mp3
+/home/bard/Music/Music/B52\'s/Compilation/B52s\ -\ Love\ Shack.mp3
+/home/bard/Music/Music/Sachmo/Unknown\ Album/Summertime.mp3
+/home/bard/Music/Music/Dr.\ Dre/2001/11\ The\ Next\ Episode\ \(feat\ Snoop\ D.mp3
+/home/bard/Music/Music/Dr.\ Dre/2001/06\ Xxplosive\ \(feat\ Hittman,\ Kurup.mp3
+/home/bard/Music/Music/Bone\ Thugs\ \&\ Harmony/E.\ 1999\ Eternal/Crossroads.mp3
+/home/bard/Music/Music/Mystikal/Shake\ Ya\ Ass\ \(12\ Inch\)/03\ Shake\ Ya\ Ass\ \(LP\ Version\).mp3
+/home/bard/Music/Music/Jackie\ Brown/Music\ From\ The\ Miramax\ Motion\ Picture/02\ Beaumont\'s\ Lament.mp3
+/home/bard/Music/Music/Madonna/Compilation/borderline.mp3
+/home/bard/Music/Music/Madonna/Compilation/Die\ another\ Day.mp3
+/home/bard/Music/Music/Madonna/Compilation/Get\ Into\ The\ Groove\ 1.mp3
+/home/bard/Music/Music/Roots/Phrenology-ADVANCE/05\ Rolling\ With\ Heat\ \(featuring\ T.mp3
+/home/bard/Music/Music/Brian\ Eno/Unknown\ Album/Ambient\ Music\ 1.mp3
+/home/bard/Music/Music/Brian\ Eno/Unknown\ Album/Deep\ Blue\ Day\ 1.mp3
+/home/bard/Music/Music/Brian\ Eno/Unknown\ Album/Deep\ Blue\ Day.mp3
+/home/bard/Music/Music/Antonio\ Carlos\ Jobim,\ Herbie\ H/Antonio\ Carlos\ Jobim\ And\ Frien/Caminhos\ Cruzados.mp3
+/home/bard/Music/Music/Edith\ Piaf/Saving\ Private\ Ryan/Tu\ Es\ Partout.mp3
+/home/bard/Music/Music/The\ Cars/The\ Cars/01\ Good\ Times\ Roll.mp3
+/home/bard/Music/Music/Ottis\ Redding/The\ Ultimate\ Soul\ Collection\ \(Disk\ 1\ -\ Soul\)/Try\ a\ Little\ Tenderness.mp3
+/home/bard/Music/Music/Mick\ Jagger/Goddess\ in\ the\ Doorway/God\ Gave\ Me\ Everything.mp3
+/home/bard/Music/Music/David\ Bowie/Changesbowie/01\ Space\ Oddity.mp3
+/home/bard/Music/Music/David\ Bowie/Changesbowie/Diamond\ Dogs.mp3
+/home/bard/Music/Music/David\ Bowie/Changesbowie/05\ Suffragette\ City.mp3
+/home/bard/Music/Music/David\ Bowie/Aladdin\ Sane/09\ The\ Jean\ Genie.mp3
+/home/bard/Music/Music/David\ Bowie/Unknown\ Album/Seven\ \(beck\ remix\).mp3
+/home/bard/Music/Music/David\ Bowie/Unknown\ Album/Space\ Oddity\ 1.mp3
+/home/bard/Music/Music/David\ Bowie/Unknown\ Album/Space\ Oddity.mp3
+/home/bard/Music/Music/David\ Bowie/Unknown\ Album/Ashes\ To\ Ashes.mp3
+/home/bard/Music/Music/David\ Bowie/Ziggy\ Stardust/10\ Suffragette\ City.mp3
+/home/bard/Music/Music/David\ Bowie/The\ Best\ Of\ David\ Bowie\ 1969\ 1/Aladdin\ Sane.mp3
+/home/bard/Music/Music/David\ Bowie/The\ Best\ Of\ David\ Bowie\ 1969\ 1/All\ The\ Young\ Dudes.mp3
+/home/bard/Music/Music/David\ Bowie/The\ Best\ Of\ David\ Bowie\ 1969\ 1/Life\ On\ Mars.mp3
+/home/bard/Music/Music/Brian\ Eno\ Trainspotting\ Soundtrack\ -\ 02/Unknown\ Album/Deep\ Blue\ Day.mp3
+/home/bard/Music/Music/Supremes/Unknown\ Album/01\ Love\ Is\ Like\ An\ Itching\ In\ My\ Heart.mp3
+/home/bard/Music/Music/TalkinHeads/Unknown\ Album/Burnin\ Down\ the\ House.mp3
+/home/bard/Music/Music/George\ Clinton/Unknown\ Album/Booty\ Body\ Ready\ for\ the\ Parlament\ Funkadel.mp3
+/home/bard/Music/Music/George\ Clinton/Unknown\ Album/We\ Want\ The\ Funk.mp3
+/home/bard/Music/Music/Gap\ Band/Unknown\ Album/Double\ Dutch\ Bus.mp3
+/home/bard/Music/Music/5\ STERNE\ DELUXE/Unknown\ Album/Hip\ Hop\ Clowns\ \&\ Party\ Rapper.mp3
+/home/bard/Music/Music/Dame\ Dash\ Feat\ Beans,\ Camron,/DJ\ Clue-Hate\ Me\ Now\ Pt.2/15\ The\ Champions.mp3
+/home/bard/Music/Music/Missy\ Elliott/Under\ Construction\ \(Advance\)/Gossip\ Folks\ Ft\ Ludacris.mp3
+/home/bard/Music/Music/Jeff\ Beck/Unknown\ Album/Beck\'s\ Bolero.mp3
+/home/bard/Music/Music/Jeff\ Beck/Jeff\ Beck\'s\ Guitar\ Shop/Guitar\ Shop.mp3
+/home/bard/Music/Music/Jeff\ Beck/Jeff\ Beck\'s\ Guitar\ Shop/Guitar\ Shop\ 1.mp3
+/home/bard/Music/Music/Jeff\ Beck/Jeff\ Beck\'s\ Guitar\ Shop/Jeff\ Beck\ -\ 01\ Guitar\ Shop.mp3
+/home/bard/Music/Music/Van\ Morrison/Compilation/Brown\ eyed\ girl\ 2.mp3
+/home/bard/Music/Music/Van\ Morrison/Compilation/It\'s\ All\ Over\ Now,\ Baby\ Blue.mp3
+/home/bard/Music/Music/Van\ Morrison/Compilation/Brown\ eyed\ girl.mp3
+/home/bard/Music/Music/LL\ Cool\ J/Im\ Gone\ Make\ It\ Better\ Promo\ C/Luv\ U\ Better.mp3
+/home/bard/Music/Music/LL\ Cool\ J/Unknown\ Album/01\ Phenomenon.mp3
+/home/bard/Music/Music/LL\ Cool\ J/Unknown\ Album/PHENOMENON.mp3
+/home/bard/Music/Music/LL\ Cool\ J/Unknown\ Album/PHENOMENON\ 1.mp3
+/home/bard/Music/Music/LL\ Cool\ J/Im\ Gone\ Make\ It\ Better-Promo\ C/01\ im\ gone\ make\ it\ better\ \(main\).mp3
+/home/bard/Music/Music/LL\ Cool\ J/Phenomenon\ \(Explicit\ Version\)/06\ Hot,\ Hot,\ Hot.mp3
+/home/bard/Music/Music/LL\ Cool\ J/Phenomenon\ \(Explicit\ Version\)/09\ Father.mp3
+/home/bard/Music/Music/LL\ Cool\ J/Phenomenon\ \(Explicit\ Version\)/08\ Wanna\ Get\ Paid\ \(Featuring\ The\ Lost\ Boyz\).mp3
+/home/bard/Music/Music/LL\ Cool\ J/Phenomenon\ \(Explicit\ Version\)/01\ Phenomenon.mp3
+/home/bard/Music/Music/LL\ Cool\ J/Phenomenon\ \(Explicit\ Version\)/04\ Another\ Dollar.mp3
+/home/bard/Music/Music/LL\ Cool\ J/Phenomenon\ \(Explicit\ Version\)/03\ Starsky\ And\ Hutch\ \(Featuring\ Busta\ Rhymes\).mp3
+/home/bard/Music/Music/LL\ Cool\ J/Phenomenon\ \(Explicit\ Version\)/07\ 4,\ 3,\ 2,\ 1\ \(Featuring\ Redman,\ Method\ Man,\ Cannibus\ And\ DMX\).mp3
+/home/bard/Music/Music/LL\ Cool\ J/Phenomenon\ \(Explicit\ Version\)/10\ Don\'t\ Be\ Late,\ Don't\ Come\ Too\ Soon\ \(Featuring\ Tamia\).mp3
+/home/bard/Music/Music/LL\ Cool\ J/Phenomenon\ \(Explicit\ Version\)/05\ Nobody\ Can\ Freak\ You\ \(Featuring\ Keith\ Sweat\ And\ LeShaun\).mp3
+/home/bard/Music/Music/LL\ Cool\ J/Phenomenon\ \(Explicit\ Version\)/02\ Candy\ \(Featuring\ Ralph\ Tresvant\ And\ Ricky\ Bell\).mp3
+/home/bard/Music/Music/Sean\ Paul/Unknown\ Album/Get\ Busy.mp3
+/home/bard/Music/Music/Sean\ Paul/Unknown\ Album/sean\ paul\ -\ look\ so\ appealing\ \(ultimate\ dancehall\ mix\).mp3
+/home/bard/Music/Music/Sean\ Paul/Unknown\ Album/Just\ Gimme\ The\ Light.mp3
+/home/bard/Music/Music/Sean\ Paul/Unknown\ Album/like\ glue.mp3
+/home/bard/Music/Music/John\ Cale/Compilation/The\ Moon.mp3
+/home/bard/Music/Music/John\ Cale/Compilation/First\ Evening.mp3
+/home/bard/Music/Music/John\ Cale/Compilation/04\ DOA.mp3
+/home/bard/Music/Music/John\ Cale/Compilation/5\ Fear.mp3
+/home/bard/Music/Music/John\ Cale/Compilation/4\ Dying\ on\ the\ vine.mp3
+/home/bard/Music/Music/John\ Cale/Compilation/6\ Close\ watch.mp3
+/home/bard/Music/Music/John\ Cale/Compilation/03\ Praetorian\ underground.mp3
+/home/bard/Music/Music/John\ Cale/Compilation/07\ Dr.\ Mudd.mp3
+/home/bard/Music/Music/John\ Cale/Compilation/02\ Corboda.mp3
+/home/bard/Music/Music/John\ Cale/Compilation/Carrebian\ Sunset.mp3
+/home/bard/Music/Music/John\ Cale/Compilation/Gun.mp3
+/home/bard/Music/Music/John\ Cale/Compilation/1\ Model\ Beirut\ recital.mp3
+/home/bard/Music/Music/Robert\ Johnson/Unknown\ Album/Dead\ Shrimp\ Blues.mp3
+/home/bard/Music/Music/Robert\ Johnson/Unknown\ Album/Ramblin\ on\ my\ mind\ 1.mp3
+/home/bard/Music/Music/Robert\ Johnson/Unknown\ Album/Crossroads\ Blues.mp3
+/home/bard/Music/Music/Robert\ Johnson/Unknown\ Album/Terraplane.mp3
+/home/bard/Music/Music/Robert\ Johnson/Unknown\ Album/Crossroads\ 1.mp3
+/home/bard/Music/Music/Robert\ Johnson/Unknown\ Album/Terraplane\ Blues.mp3
+/home/bard/Music/Music/Robert\ Johnson/Unknown\ Album/Sweet\ Home\ Chicago.mp3
+/home/bard/Music/Music/Robert\ Johnson/Unknown\ Album/Crossroads.mp3
+/home/bard/Music/Music/Robert\ Johnson/Unknown\ Album/Ramblin\ on\ my\ mind.mp3
+/home/bard/Music/Music/Robert\ Johnson/Unknown\ Album/Dust\ My\ Broom.mp3
+/home/bard/Music/Music/Robert\ Johnson/The\ Original\ Blues\ Legend/06\ They\'re\ Red\ Hot.mp3
+/home/bard/Music/Music/Blondie/Unknown\ Album/Rapture.mp3
+/home/bard/Music/Music/Blondie/Unknown\ Album/Heart\ Of\ Glass.mp3
+/home/bard/Music/Music/Blondie/Unknown\ Album/The\ Tide\ Is\ High.mp3
+/home/bard/Music/Music/P-Funk/Live\ in\ Monroe/Flashlight.mp3
+/home/bard/Music/Music/Allman\ Brothers/Compilation/Mellissa.mp3
+/home/bard/Music/Music/Allman\ Brothers/Compilation/Midnight\ Rider.mp3
+/home/bard/Music/Music/Tone\ Loc/Unknown\ Album/Funky\ Cold\ Medena.mp3
+/home/bard/Music/Music/Peter\ Gabriel/Unknown\ Album/A\ Whiter\ Shade\ of\ Pale.mp3
+/home/bard/Music/Music/Wild\ Cherry/Unknown\ Album/Play\ That\ Funky\ Music.mp3
+/home/bard/Music/Music/Beck/Unknown\ Album/Wheres\ It\'s\ At.mp3
+/home/bard/Music/Music/Beck/Unknown\ Album/Loser.mp3
+/home/bard/Music/Music/Beck/Unknown\ Album/Nicotine\ \&\ Gravy.mp3
+/home/bard/Music/Music/Beck/Unknown\ Album/Devil\'s\ Haicut.mp3
+/home/bard/Music/Music/Lou\ Reed/Unknown\ Album/Heroin.mp3
+/home/bard/Music/Music/Lou\ Reed/Unknown\ Album/Perfect\ Day.mp3
+/home/bard/Music/Music/Lou\ Reed/Unknown\ Album/Take\ A\ Walk\ On\ The\ Wild\ Side\ 1.mp3
+/home/bard/Music/Music/The\ Who/Compilation/01\ Won\'t\ Get\ Fooled\ Again.mp3
+/home/bard/Music/Music/The\ Who/Compilation/Behind\ Blue\ Eyes.mp3
+/home/bard/Music/Music/John\ Prine/Common\ Sense/11\ You\ Never\ Can\ Tell\ 1.mp3
+/home/bard/Music/Music/JJ\ Cale/Unknown\ Album/JJ\ Cale\ -\ Troubadour\ -\ 11\ Cherry.mp3
+/home/bard/Music/Music/JJ\ Cale/Unknown\ Album/Call\ Me\ The\ Breeze.mp3
+/home/bard/Music/Music/JJ\ Cale/Unknown\ Album/JJ\ Cale\ -\ London94\ -\ 08\ Black\ Cat.mp3
+/home/bard/Music/Music/Red\ Hot\ Chillie\ Peppers/Unknown\ Album/Under\ The\ Bridge.mp3
+/home/bard/Music/Music/Red\ Hot\ Chillie\ Peppers/Unknown\ Album/03\ Breaking\ The\ Girl.mp3
+/home/bard/Music/Music/Pam\ Grier/Music\ From\ The\ Miramax\ Motion\ Picture/08\ Long\ Time\ Woman.mp3
+/home/bard/Music/Music/Desmond\ Decker\ And\ the\ Aces/Unknown\ Album/Isrealites.mp3
+/home/bard/Music/Music/Lil\ Kim\ feat.\ 50\ Cent/La\ Bella\ Mafia/12\ Magic\ Stick.mp3
+/home/bard/Music/Music/Ton\ Loc/Unknown\ Album/Wild\ Thang.mp3
+/home/bard/Music/Music/Brigit\ Nilsson/Recitals/07\ Principessa\ Di\ Morte.mp3
+/home/bard/Music/Music/Brigit\ Nilsson/Recitals/01\ Einsam\ In\ Truben\ Tagen.mp3
+/home/bard/Music/Music/Brigit\ Nilsson/Recitals/06\ In\ Questa\ Reggia.mp3
+/home/bard/Music/Music/Brigit\ Nilsson/Recitals/02\ Zum\ Kampf\ Fur\ Eine\ Magel\ Zu\ Stehn.mp3
+/home/bard/Music/Music/Brigit\ Nilsson/Recitals/03\ Euch\ Luften\ Die\ Mein\ Klugen.mp3
+/home/bard/Music/Music/Brigit\ Nilsson/Recitals/05\ Mild\ Und\ Leise\ \(Liebestodt\).mp3
+/home/bard/Music/Music/Brigit\ Nilsson/Recitals/04\ Uhl\ Ich\ Zu\ Dir\ So\ Suss\ Mein\ Herr.mp3
+/home/bard/Music/Music/Mixed\ Pop/Compilation/Ride\ The\ White\ Horse.mp3
+/home/bard/Music/Music/Mixed\ Pop/Compilation/02\ Awnaw\ \(Album\ Version\).mp3
+/home/bard/Music/Music/Mixed\ Pop/Compilation/Phenomenon.mp3
+/home/bard/Music/Music/Mixed\ Pop/Compilation/02\ Shake\ Ya\ Tailfeather.mp3
+/home/bard/Music/Music/Mixed\ Pop/Compilation/Swing\ My\ Way.mp3
+/home/bard/Music/Music/Mixed\ Pop/Compilation/08\ Stay\ Together.mp3
+/home/bard/Music/Music/Mixed\ Pop/Compilation/09\ Lying\ To\ Myself.mp3
+/home/bard/Music/Music/Mixed\ Pop/Compilation/Can\ I\ get\ A.mp3
+/home/bard/Music/Music/Mixed\ Pop/Compilation/Cocaine\ Carolina.mp3
+/home/bard/Music/Music/Mixed\ Pop/Compilation/Tear\ The\ Roof\ Off.mp3
+/home/bard/Music/Music/Mixed\ Pop/Compilation/Infiltrate.mp3
+/home/bard/Music/Music/Mixed\ Pop/Compilation/Southern\ Girl.mp3
+/home/bard/Music/Music/Mixed\ Pop/Compilation/10\ The\ Phoney.mp3
+/home/bard/Music/Music/Mixed\ Pop/Compilation/Fat\ Boy\ Slim\ -\ Right\ About\ Now\ \(funk\ Soul\ Brothers\).mp3
+/home/bard/Music/Music/Mixed\ Pop/Compilation/03\ Start\ All\ Over\ Again.mp3
+/home/bard/Music/Music/Mixed\ Pop/Compilation/Lovefool.mp3
+/home/bard/Music/Music/Mixed\ Pop/Compilation/You\ Can\ Do\ It\ \(Put\ Your\ Ass....mp3
+/home/bard/Music/Music/Mixed\ Pop/Compilation/07\ Lovefool.mp3
+/home/bard/Music/Music/Mixed\ Pop/Compilation/08\ You\'ll\ Get\ Enough\ \(Previously\ Unreleased\).mp3
+/home/bard/Music/Music/Mixed\ Pop/Compilation/American\ Woman.mp3
+/home/bard/Music/Music/Mixed\ Pop/Compilation/Everywhere\ I\ Go\ 2.mp3
+/home/bard/Music/Music/Mixed\ Pop/Compilation/To\ Be\ The\ One.mp3
+/home/bard/Music/Music/Mixed\ Pop/Compilation/07\ -\ Crazy\ Mama.mp3
+/home/bard/Music/Music/Mixed\ Pop/Compilation/15\ Saturday\ Nite-Remix\ Ft\ Mos\ Def.mp3
+/home/bard/Music/Music/Mixed\ Pop/Compilation/April\ In\ Paris.mp3\ 01.aiff
+/home/bard/Music/Music/Mixed\ Pop/Compilation/Rocky\ Mountain\ Way.mp3
+/home/bard/Music/Music/Mixed\ Pop/Compilation/Bitch\ Please.mp3
+/home/bard/Music/Music/Mixed\ Pop/Compilation/Jenny\ from\ the\ block.mp3
+/home/bard/Music/Music/Mixed\ Pop/Compilation/01\ Black\ Suits\ Comin\'.mp3
+/home/bard/Music/Music/Mixed\ Pop/Compilation/Constant\ Craving.mp3
+/home/bard/Music/Music/Mixed\ Pop/Compilation/The\ Best\ U\ Can.mp3
+/home/bard/Music/Music/Mixed\ Pop/Compilation/A\ Whiter\ Shade\ Of\ Pale.mp3
+/home/bard/Music/Music/Mixed\ Pop/Compilation/Cherry-Coloured\ Funk.mp3
+/home/bard/Music/Music/Mixed\ Pop/Compilation/02\ I\ Don\'t\ Want\ To\ Make\ You\ Wait.mp3
+/home/bard/Music/Music/Mixed\ Pop/Compilation/02\ Track\ 02.mp3
+/home/bard/Music/Music/Mixed\ Pop/Compilation/Mombo\ #5.mp3
+/home/bard/Music/Music/Mixed\ Pop/Compilation/Locomotive\ Breath.mp3
+/home/bard/Music/Music/Mixed\ Pop/Compilation/16\ A\ Whiter\ Shade\ Of\ Pale.mp3
+/home/bard/Music/Music/Mixed\ Pop/Compilation/12\ Didn\'t\ I\ Blow\ Your\ Mind\ This\ Time.mp3
+/home/bard/Music/Music/Mixed\ Pop/Compilation/That\'s\ Why\ Darkies\ Were\ Born.mp3
+/home/bard/Music/Music/Mixed\ Pop/Compilation/Been\ Caught\ Stealing.mp3
+/home/bard/Music/Music/Mixed\ Pop/Compilation/Everywhere\ I\ Go.mp3
+/home/bard/Music/Music/Mixed\ Pop/Compilation/10\ Letter\ To\ The\ Firm.mp3
+/home/bard/Music/Music/Mixed\ Pop/Compilation/James\ Brown\ Celebrity\ Hot\ Tub.mp3
+/home/bard/Music/Music/Mixed\ Pop/Compilation/My\ Ding\ A\ Ling\ Full\ Version.mp3
+/home/bard/Music/Music/Mixed\ Pop/Compilation/Lenny\ Kravitz\ and\ Iggy\ Pop\ -\ R.mp3
+/home/bard/Music/Music/Mixed\ Pop/Compilation/A\ Whiter\ Shade\ of\ Pale\ 2.mp3
+/home/bard/Music/Music/Mixed\ Pop/Compilation/15\ Big\ Willie\ Style\ -\ \(featuring\ Left\ Eye\).mp3
+/home/bard/Music/Music/Mixed\ Pop/Compilation/11\ Time\ Has\ Come\ Today.mp3
+/home/bard/Music/Music/Mixed\ Pop/Compilation/02\ I\'ve\ Committed\ Murder\ \(Ga.mp3
+/home/bard/Music/Music/Mixed\ Pop/Compilation/Clyde.mp3
+/home/bard/Music/Music/Mixed\ Pop/Compilation/06\ Think\ It\ Over.mp3
+/home/bard/Music/Music/Mixed\ Pop/Compilation/They\ Don\'t\ Really\ Care\ About\ Us.mp3
+/home/bard/Music/Music/Mixed\ Pop/Compilation/I\ Need\ A\ Girl\ Remix.mp3
+/home/bard/Music/Music/Mixed\ Pop/Compilation/Whiter\ Shade\ Of\ Pale.mp3
+/home/bard/Music/Music/Mixed\ Pop/Compilation/Parkin\ Lot\ Pimpin\ \(Dynasty\).mp3
+/home/bard/Music/Music/Mixed\ Pop/Compilation/05\ B\ R\ Right\ ft\ Ludacris.mp3
+/home/bard/Music/Music/Mixed\ Pop/Compilation/Let\'s\ Get\ Loud.mp3
+/home/bard/Music/Music/Mixed\ Pop/Compilation/05\ I\ Told\ You\ So.mp3
+/home/bard/Music/Music/Mixed\ Pop/Compilation/Pablo\ Picasso.mp3
+/home/bard/Music/Music/Mixed\ Pop/Compilation/Breathe\ \(Remix\).mp3
+/home/bard/Music/Music/Mixed\ Pop/Compilation/At\ Last.mp3
+/home/bard/Music/Music/Mixed\ Pop/Compilation/Lu.mp3
+/home/bard/Music/Music/Mixed\ Pop/Compilation/Don\'t\ Approach\ Me.mp3
+/home/bard/Music/Music/Mixed\ Pop/Compilation/Lets\ Stay\ Together.mp3
+/home/bard/Music/Music/Mixed\ Pop/Compilation/Son\ Of\ \ A\ Preacherman.mp3
+/home/bard/Music/Music/Mixed\ Pop/Compilation/Big\ Pimpin.mp3
+/home/bard/Music/Music/Mixed\ Pop/Compilation/Autumn\ Leaves.mp3
+/home/bard/Music/Music/Mixed\ Pop/Compilation/Don\'t\ Mess\ With\ My\ Man.mp3
+/home/bard/Music/Music/Mixed\ Pop/Compilation/17\ Into\ Each\ Heart\ Some\ Rain\ Must\ Fall.mp3
+/home/bard/Music/Music/Mixed\ Pop/Compilation/Ugly\ Get\ your\ Freak\ On\ Mix\ wtimbaland\ w\ bubba\ sparxx\ \(Nico\ Mcnasty\'s\ supersick\ mix\).mp3
+/home/bard/Music/Music/Mixed\ Pop/Compilation/07\ Can\'t\ Go\ On\ Living.mp3
+/home/bard/Music/Music/Mixed\ Pop/Compilation/03\ X\ Gonna\ Give\ It\ To\ Ya.mp3
+/home/bard/Music/Music/Mixed\ Pop/Compilation/03\ Missing\ Pieces.mp3
+/home/bard/Music/Music/Mixed\ Pop/Compilation/She\'s\ A\ Brick\ House.mp3
+/home/bard/Music/Music/Mixed\ Pop/Compilation/02\ These\ Days.mp3
+/home/bard/Music/Music/Mixed\ Pop/Compilation/GET\ THIS\ PARTY\ STARTED.mp3
+/home/bard/Music/Music/Mixed\ Pop/Compilation/01\ Me\ and\ My\ Girlfriend\(main\).mp3
+/home/bard/Music/Music/Mixed\ Pop/Compilation/01\ bossa\ per\ due\ \(thievery\ corporation\ remix\).mp3
+/home/bard/Music/Music/Mixed\ Pop/Compilation/I\ Just\ Wanna\ Fuck\ You.mp3
+/home/bard/Music/Music/Mixed\ Pop/Compilation/02\ Knock\ Yourself\ Out.mp3
+/home/bard/Music/Music/Mixed\ Pop/Compilation/Tribal\ 1\ this\ trac.mp3
+/home/bard/Music/Music/Mixed\ Pop/Compilation/07\ bring\ the\ funk.mp3
+/home/bard/Music/Music/Mixed\ Pop/Compilation/Daddy\ Get\ That\ Cash\ Ft\ Lil\ Mo.mp3
+/home/bard/Music/Music/Mixed\ Pop/Compilation/02\ Someone\ To\ Love.mp3
+/home/bard/Music/Music/Mixed\ Pop/Compilation/Tall\ Cool\ One.mp3
+/home/bard/Music/Music/Mixed\ Pop/Compilation/ABC.mp3
+/home/bard/Music/Music/Mixed\ Pop/Compilation/Been\ Around\ The\ World\ [Remix].mp3
+/home/bard/Music/Music/Mixed\ Pop/Compilation/I\ Want\ You\ \(Feat.\ Fat\ Joe\).mp3
+/home/bard/Music/Music/Mixed\ Pop/Compilation/Aqualung.mp3
+/home/bard/Music/Music/Mixed\ Pop/Compilation/It\'s\ Ecstasy.mp3
+/home/bard/Music/Music/Mixed\ Pop/Compilation/Waiting\ For\ Tonight.mp3
+/home/bard/Music/Music/Mixed\ Pop/Compilation/My\ Funny\ Valentine.mp3
+/home/bard/Music/Music/Mixed\ Pop/Compilation/04\ Don\'t\ Leave\ Me\ \(Previously\ Unreleased\).mp3
+/home/bard/Music/Music/Mixed\ Pop/Compilation/06\ Nightclubbing.mp3
+/home/bard/Music/Music/Mixed\ Pop/Compilation/tech\ nine.mp3
+/home/bard/Music/Music/Mixed\ Pop/Compilation/Fickle\ Funk.mp3
+/home/bard/Music/Music/Mixed\ Pop/Compilation/killer\ mike\ -\ adidas.mp3
+/home/bard/Music/Music/BloodStone/Unknown\ Album/Natural\ Hi.mp3
+/home/bard/Music/Music/BloodStone/Music\ From\ The\ Miramax\ Motion\ Picture/07\ Natural\ High.mp3
+/home/bard/Music/Music/The\ Smiths/Compilation/The\ Queen\ Is\ Dead.mp3
+/home/bard/Music/Music/The\ Smiths/Compilation/I\ Am\ Human.mp3
+/home/bard/Music/Music/The\ Smiths/Compilation/Girlfriend\ In\ A\ Coma.mp3
+/home/bard/Music/Music/The\ Smiths/Compilation/10\ Please\ Please\ Please\ Let\ Me\ Get\ What\ I\ Want.mp3
+/home/bard/Music/Music/The\ Smiths/Compilation/Meat\ is\ murder.mp3
+/home/bard/Music/Music/Black\ Crowes/Compilation/Remedy.mp3
+/home/bard/Music/Music/Black\ Crowes/Compilation/Hard\ To\ Handle.mp3
+/home/bard/Music/Music/Black\ Crowes/Compilation/Consipiracy.mp3
+/home/bard/Music/Music/Sean\ Paul\ feat.\ Busta\ Rhymes/Unknown\ Album/Gimme\ The\ Light\ Remix.mp3
+/home/bard/Music/Music/50\ Cents/Cutmaster\ C-World\ Series\ Lets/10\ Indian\ Girl.mp3
+/home/bard/Music/Music/Mott\ The\ Hoople/Compilation/All\ The\ Way\ From\ Memphis.mp3
+/home/bard/Music/Music/Mott\ The\ Hoople/Compilation/01\ Sweet\ Jane.mp3
+/home/bard/Music/Music/Mott\ The\ Hoople/Compilation/All\ The\ Young\ Dudes.mp3
+/home/bard/Music/Music/Beatles/Compilation/Beatles\ \(rarest\)\ -\ John\ Lennon\ \&\ Rolling\ Stones\ -\ Yer\ Blues\ \(live\).mp3
+/home/bard/Music/Music/Beatles/Compilation/Eleanor\ Rigby.mp3
+/home/bard/Music/Music/Beatles/Compilation/Fixing\ A\ Hole\ 2.mp3
+/home/bard/Music/Music/Beatles/Compilation/A\ Day\ In\ The\ Life.mp3
+/home/bard/Music/Music/Beatles/Compilation/Fixing\ A\ Hole.mp3
+/home/bard/Music/Music/Billy\ Holiday/All\ Of\ Me/What\ A\ Little\ Moonlight\ Can\ Do.mp3
+/home/bard/Music/Music/Billy\ Holiday/Unknown\ Album/Come\ Rain\ or\ come\ Shine.mp3
+/home/bard/Music/Music/Billy\ Holiday/Unknown\ Album/April\ In\ Paris.mp3
+/home/bard/Music/Music/Bobby\ Womack/Music\ From\ The\ Miramax\ Motion\ Picture/01\ Across\ 110th\ Street.mp3
+/home/bard/Music/Music/Zappa/Compilation/Peaches\ En\ Regelia.mp3
+/home/bard/Music/Music/Zappa/Compilation/Big\ Swifty.mp3
+/home/bard/Music/Music/Zappa/Compilation/Valley\ Girl.mp3
+/home/bard/Music/Music/Zappa/Compilation/Stevie\'s\ Spanking.mp3
+/home/bard/Music/Music/Zappa/Compilation/Don\'t\ Eat\ The\ Yellow\ Snow.mp3
+/home/bard/Music/Music/Zappa/Compilation/Bobby\ Brown.mp3
+/home/bard/Music/Music/Zappa/Compilation/Ring\ Of\ Fire.mp3
+/home/bard/Music/Music/Zappa/Compilation/05\ Loser.mp3
+/home/bard/Music/Music/Cantloop/Unknown\ Album/Flip\ Fantasia.mp3
+/home/bard/Music/Music/Cream/Compilation/White\ Room.mp3
+/home/bard/Music/Music/Cream/Compilation/House\ Of\ The\ Rising\ Sun.mp3
+/home/bard/Music/Music/Cream/Compilation/01\ -\ I\ Feel\ Free.mp3
+/home/bard/Music/Music/Cream/Compilation/Crossroads\ 2.mp3
+/home/bard/Music/Music/Cream/Compilation/peaches\ and\ cream.mp3
+/home/bard/Music/Music/Cream/Compilation/Sunshine\ of\ your\ love.mp3
+/home/bard/Music/Music/Cream/Compilation/Crossroads.mp3
+/home/bard/Music/Music/Grand\ Master\ Flash/Unknown\ Album/Electric\ Slide.mp3
+/home/bard/Music/Music/Grand\ Master\ Flash/Unknown\ Album/White\ Lines.mp3
+/home/bard/Music/Music/Mikey\ Bee/Unknown\ Album/deepsh4.mp3
+/home/bard/Music/Music/Ask\ The\ Fish/Unknown\ Album/Lonesome\ Road\ 1.mp3
+/home/bard/Music/Music/Ask\ The\ Fish/Unknown\ Album/Lonesome\ Road.mp3
+/home/bard/Music/Music/Fleetwood\ Mac/Compilation/Landslide\ \(Live\).mp3
+/home/bard/Music/Music/Fleetwood\ Mac/Compilation/Stop\ Draggin\'\ My\ Heart\ Around\ 2.mp3
+/home/bard/Music/Music/Fleetwood\ Mac/Compilation/Dreams.mp3
+/home/bard/Music/Music/Fleetwood\ Mac/Compilation/Crimson\ and\ Clover\ 1.mp3
+/home/bard/Music/Music/Fleetwood\ Mac/Compilation/Fleetwood\ Mac\ -\ Crimson\ and\ Clover.mp3
+/home/bard/Music/Music/Fleetwood\ Mac/Compilation/Stop\ Draggin\'\ My\ Heart\ Around.mp3
+/home/bard/Music/Music/Elvis\ Costello/Compilation/Veronica.mp3
+/home/bard/Music/Music/Elvis\ Costello/Compilation/01\ Peace\ Love\ and\ Understanding.mp3
+/home/bard/Music/Music/Elvis\ Costello/Compilation/01\ Peace\ Love\ and\ Understanding\ 2.mp3
+/home/bard/Music/Music/Elvis\ Costello/Compilation/Tear\ Off\ Your\ Own\ Head.mp3
+/home/bard/Music/Music/Elvis\ Costello/Compilation/Watching\ the\ Detectives.mp3
+/home/bard/Music/Music/Elvis\ Costello/Compilation/You\'ve\ Got\ to\ Hide\ Your\ Love\ Away\ \(beatles\ cover\).mp3
+/home/bard/Music/Music/Elvis\ Costello/Compilation/elvis\ costello\ -\ allison.mp3
+/home/bard/Music/Music/Elvis\ Costello/Compilation/04\ Blame\ It\ On\ Cain.mp3
+/home/bard/Music/Music/Elvis\ Costello/Compilation/Don\'t\ Let\ Me\ Be\ Misunderstood.mp3
+/home/bard/Music/Music/Elvis\ Costello/Compilation/07\ Ship\ of\ Fools.mp3
+/home/bard/Music/Music/Elvis\ Costello/Compilation/Less\ Than\ Zero.mp3
+/home/bard/Music/Music/Elvis\ Costello/Compilation/18\ I\ Forgot\ More\ Than\ You\'ll\ Ever.mp3
+/home/bard/Music/Music/Elvis\ Costello/Compilation/05\ Love\ Went\ Mad.mp3
+/home/bard/Music/Music/Elvis\ Costello/Compilation/Allison.mp3
+/home/bard/Music/Music/Elvis\ Costello/Compilation/Everyday\ I\ Write\ the\ Book.mp3
+/home/bard/Music/Music/Ini\ Kamoze/Lyrical\ Gansta/Hot\ Steppa.mp3
+/home/bard/Music/Music/Night\ Ranger/Unknown\ Album/Sister\ Christian.mp3
+/home/bard/Music/Music/Busta\ Rhymes/Compilation/Make\ It\ Clap\ \(Remix\).mp3
+/home/bard/Music/Music/Busta\ Rhymes/Compilation/18\ This\ means\ war.mp3
+/home/bard/Music/Music/Busta\ Rhymes/Compilation/Pass\ the\ courvoisier.mp3
+/home/bard/Music/Music/Busta\ Rhymes/Compilation/Break\ Your\ Neck.mp3
+/home/bard/Music/Music/Busta\ Rhymes/Compilation/DOPE\ MIX\ III.mp3
+/home/bard/Music/Music/Busta\ Rhymes/Compilation/Pass\ the\ Courvouisier.mp3
+/home/bard/Music/Music/Busta\ Rhymes/Compilation/Busta\ Rhymes\ ft.\ P.\ Diddy\ -\ Pa.mp3
+/home/bard/Music/Music/Busta\ Rhymes/Compilation/Pass\ the\ courvoisier\ 2.mp3
+/home/bard/Music/Music/Dungeon\ Family/Unknown\ Album/Low,\ Low\ \(feat.\ Cool\ Breeze\ \&\ Pimp\ C\).mp3
+/home/bard/Music/Music/Dungeon\ Family/Unknown\ Album/Low,\ Low\ \(feat.\ Cool\ Breeze\ \&\ Pimp\ C\)\ 1.mp3
+/home/bard/Music/Music/Traffic/The\ Low\ Spark\ Of\ High\ Heeled\ B/02\ The\ Low\ Spark\ Of\ High-Heeled\ B.mp3
+/home/bard/Music/Music/Jimi\ Hendrix/Compilation/Angle.mp3
+/home/bard/Music/Music/Jimi\ Hendrix/Compilation/Purple\ Haze.mp3
+/home/bard/Music/Music/Jimi\ Hendrix/Compilation/American\ Woman.mp3
+/home/bard/Music/Music/Jimi\ Hendrix/Compilation/Manic\ Depression.mp3
+/home/bard/Music/Music/Jimi\ Hendrix/Compilation/Foxy\ Lady.mp3
+/home/bard/Music/Music/Jimi\ Hendrix/Compilation/If\ Six\ Was\ Nine.mp3
+/home/bard/Music/Music/Jimi\ Hendrix/Compilation/03\ Little\ Wing\ \(Acoustic\).mp3
+/home/bard/Music/Music/Jimi\ Hendrix/Compilation/Rainy\ Wish.mp3
+/home/bard/Music/Music/Jimi\ Hendrix/Compilation/Hey\ Joe.mp3
+/home/bard/Music/Music/Jimi\ Hendrix/Compilation/All\ Along\ The\ WatchTowers.mp3
+/home/bard/Music/Music/Jimi\ Hendrix/Compilation/Castles\ Made\ of\ Sand\ 2.mp3
+/home/bard/Music/Music/Jimi\ Hendrix/Compilation/House\ is\ Burning.mp3
+/home/bard/Music/Music/Jimi\ Hendrix/Compilation/06\ Blue\ Child.mp3
+/home/bard/Music/Music/Jimi\ Hendrix/Compilation/05\ Red\ House.mp3
+/home/bard/Music/Music/Jimi\ Hendrix/Compilation/Angle\ 2.mp3
+/home/bard/Music/Music/Jimi\ Hendrix/Compilation/03\ Izabella.mp3
+/home/bard/Music/Music/Jimi\ Hendrix/Compilation/Crosstown\ Traffic.mp3
+/home/bard/Music/Music/Jimi\ Hendrix/Compilation/09\ Highway\ Chile.mp3
+/home/bard/Music/Music/Jimi\ Hendrix/Compilation/House\ Of\ The\ Rising\ Sun.mp3
+/home/bard/Music/Music/Jimi\ Hendrix/Compilation/Manic\ Depression\ 2.mp3
+/home/bard/Music/Music/Jimi\ Hendrix/Compilation/13\ Waterfalls.mp3
+/home/bard/Music/Music/Jimi\ Hendrix/Compilation/10\ Crosstown\ Traffic.mp3
+/home/bard/Music/Music/Jimi\ Hendrix/Compilation/Purple\ Haze\ 2.mp3
+/home/bard/Music/Music/Jimi\ Hendrix/Compilation/Cherokee\ Jam\ \(Acoustic\ \&\ Unplugged\).mp3
+/home/bard/Music/Music/Jimi\ Hendrix/Compilation/Red\ House.mp3
+/home/bard/Music/Music/Jimi\ Hendrix/Compilation/Castles\ Made\ Of\ Sand.mp3
+/home/bard/Music/Music/Jimi\ Hendrix/Compilation/Cocaine.mp3
+/home/bard/Music/Music/Jimi\ Hendrix/Compilation/Tobacco\ Road\ \(with\ War\ -\ Jimi\'s\ last\ recording\ -\ live\ at\ Ronnie\ Scotts\ 9-16-70\).mp3
+/home/bard/Music/Music/Jimi\ Hendrix/Compilation/Jam\ Back.mp3
+/home/bard/Music/Music/Jimi\ Hendrix/Compilation/09\ Instrumental.mp3
+/home/bard/Music/Music/Jimi\ Hendrix/Compilation/Crosstown\ Traffic\ 2.mp3
+/home/bard/Music/Music/Jimi\ Hendrix/Compilation/11\ Moon\ Turns\ The\ Tides.mp3
+/home/bard/Music/Music/Jimi\ Hendrix/Compilation/02\ Have\ You\ Ever\ Been\ \(To\ Electric\ Ladyland\).mp3
+/home/bard/Music/Music/Jimi\ Hendrix/Compilation/Gypsy\'s\ Eyes.mp3
+/home/bard/Music/Music/Jimi\ Hendrix/Compilation/If\ Six\ Was\ Nine\ 2.mp3
+/home/bard/Music/Music/Mary\ J.\ Blige\ ft.\ Biggie/Unknown\ Album/Mary\ J.\ Blige\ ft.\ Biggie\ -\ Real\ Love\ \(Hip\ Hop\ Mix\).mp3
+/home/bard/Music/Music/NWA/Unknown\ Album/Straight\ Outta\ Compton.mp3
+/home/bard/Music/Music/NWA/Unknown\ Album/Express\ yourself.mp3
+/home/bard/Music/Music/NWA/Unknown\ Album/Eazy\ E\ -\ 8\ ball.mp3
+/home/bard/Music/Music/NWA/Unknown\ Album/She\ Swallowed\ it.mp3
+/home/bard/Music/Music/NWA/Unknown\ Album/I\'d\ Rather\ Fuck\ You.mp3
+/home/bard/Music/Music/NWA/Unknown\ Album/01\ Straight\ Outta\ Compton.mp3
+/home/bard/Music/Music/NWA/Unknown\ Album/NWA\ -\ Fuck\ the\ Police.mp3
+/home/bard/Music/Music/NWA/Unknown\ Album/Fuck\ The\ Police.mp3
+/home/bard/Music/Music/One\ Puff/Ya\'ll\ aint\ shit/01\ Y'all\ aint\ shit.mp3
+/home/bard/Music/Music/Stevie\ Ray\ Vaughan/Compilation/Crossfire.mp3
+/home/bard/Music/Music/Stevie\ Ray\ Vaughan/Compilation/01\ Tribute\ to\ Robert\ Johnson\ -\ Un.mp3
+/home/bard/Music/Music/Stevie\ Ray\ Vaughan/Compilation/01\ Love\ Struck\ Baby.mp3
+/home/bard/Music/Music/Carlos\ Santana/Unknown\ Album/Acapulco\ Sunrise.mp3
+/home/bard/Music/Music/Tha\ Liks\ \&\ The\ Neptunes/Unknown\ Album/The\ Best\ U\ Can.mp3
+/home/bard/Music/Music/Big\ Audio\ Dynamite/Compilation/Rush\ 2.mp3
+/home/bard/Music/Music/Big\ Audio\ Dynamite/Compilation/Rush.mp3
+/home/bard/Music/Music/Big\ Audio\ Dynamite/Compilation/E=MC2.mp3
+/home/bard/Music/Music/Big\ Audio\ Dynamite/Compilation/Medicine\ Show.mp3
+/home/bard/Music/Music/Big\ Audio\ Dynamite/Compilation/The\ Globe.mp3
+/home/bard/Music/Music/Randy\ Crawford/Music\ From\ The\ Miramax\ Motion\ Picture/11\ Street\ Life.mp3
+/home/bard/Music/Music/The\ Gap\ Band/Unknown\ Album/01\ Party\ Train.mp3
+/home/bard/Music/Music/William\ DeVaughn/Unknown\ Album/BE\ THANKFUL\ FOR\ WHAT\ YOUVE\ GOT.mp3
+/home/bard/Music/Music/Davd\ Bowie/Unknown\ Album/Heros.mp3
+/home/bard/Music/Music/Sex\ Pistols/Some\ Product/06\ Is\ The\ Queen\ A\ Moron.mp3
+/home/bard/Music/Music/Sex\ Pistols/Unknown\ Album/Antichrist.mp3
+/home/bard/Music/Music/Sex\ Pistols/Filthy\ Lucre\ -\ Live/Anarchy\ in\ the\ UK.mp3
+/home/bard/Music/Music/DMX,\ Jay-Z,\ Tupac,\ Eminem,\ Biggie/Unknown\ Album/Mo\ Money\ Mo\ Problems\ \(Dirty\ Sanchez\ Remix\)\ \(1\).mp3
+/home/bard/Music/Music/Mixed\ Jazz/Compilation/16\ Me\ And\ The\ Devil\ Blues\ -\ 2.mp3
+/home/bard/Music/Music/Mixed\ Jazz/Compilation/14\ Mood\ Indigio.mp3
+/home/bard/Music/Music/Mixed\ Jazz/Compilation/Summertime.mp3
+/home/bard/Music/Music/Mixed\ Jazz/Compilation/Overture.mp3
+/home/bard/Music/Music/Mixed\ Jazz/Compilation/Plus\ Bleu\ Que\ Tes\ Yeux.mp3
+/home/bard/Music/Music/Mixed\ Jazz/Compilation/Harlem.mp3
+/home/bard/Music/Music/Mixed\ Jazz/Compilation/Sentimental\ Journey.mp3
+/home/bard/Music/Music/Mixed\ Jazz/Compilation/Le\ bleu\ de\ tes\ yeux.mp3
+/home/bard/Music/Music/Mixed\ Jazz/Compilation/Bach.mp3
+/home/bard/Music/Music/Mixed\ Jazz/Compilation/Mack\ The\ Knife.mp3
+/home/bard/Music/Music/Mixed\ Jazz/Compilation/C\'est\ L'amour.mp3
+/home/bard/Music/Music/Deelite/Unknown\ Album/Groove\ is\ in\ the\ Heart.mp3
+/home/bard/Music/Music/The\ Clash/Compilation/This\ Is\ Radio\ Clash.mp3
+/home/bard/Music/Music/The\ Clash/Compilation/Lost\ In\ The\ Supermarket.mp3
+/home/bard/Music/Music/The\ Clash/Compilation/CLASH-London\ Calling.mp3
+/home/bard/Music/Music/The\ Clash/Compilation/The\ Clash\ -\ I\ Fought\ The\ Law.mp3
+/home/bard/Music/Music/Billie\ Holiday/Compilation/04\ Pennies\ from\ Heaven.mp3
+/home/bard/Music/Music/Billie\ Holiday/Compilation/Lady\ Sings\ the\ Blues.mp3
+/home/bard/Music/Music/Billie\ Holiday/Compilation/God\ Bless\ The\ Child.mp3
+/home/bard/Music/Music/Billie\ Holiday/Compilation/14\ Good\ Morning\ Heartarche.mp3
+/home/bard/Music/Music/Billie\ Holiday/Compilation/It\ Had\ to\ be\ You.mp3
+/home/bard/Music/Music/Billie\ Holiday/Compilation/11\ Moonlight\ in\ Vermont.mp3
+/home/bard/Music/Music/Billie\ Holiday/Compilation/Any\ Old\ Time.mp3
+/home/bard/Music/Music/Billie\ Holiday/Compilation/03\ My\ Man.mp3
+/home/bard/Music/Music/Billie\ Holiday/Compilation/Blue\ Moon.mp3
+/home/bard/Music/Music/Billie\ Holiday/Compilation/04\ Billie\ Holiday\ -\ Pennies\ from\ Heaven.mp3
+/home/bard/Music/Music/Billie\ Holiday/Compilation/Last\ Year\'s\ Love.mp3
+/home/bard/Music/Music/Rolling\ Stones/Compilation/Cocksucker\ Blues\ \(\ version\ #2\ with\ Sugar\ Blue\ on\ harmonica\ \)\ 2.mp3
+/home/bard/Music/Music/Rolling\ Stones/Compilation/Sympathy\ For\ The\ Devil.mp3
+/home/bard/Music/Music/Rolling\ Stones/Compilation/32\ Hang\ Fire.mp3
+/home/bard/Music/Music/Rolling\ Stones/Compilation/Ruby\ Tuesday.mp3
+/home/bard/Music/Music/Rolling\ Stones/Compilation/It\'s\ Only\ Rock\ \&\ Roll.mp3
+/home/bard/Music/Music/Rolling\ Stones/Compilation/Mother\'s\ Little\ Helper\ 2.mp3
+/home/bard/Music/Music/Rolling\ Stones/Compilation/06\ Far\ Away\ Eyes.mp3
+/home/bard/Music/Music/Rolling\ Stones/Compilation/01\ Angie.mp3
+/home/bard/Music/Music/Rolling\ Stones/Compilation/Winter.mp3
+/home/bard/Music/Music/Rolling\ Stones/Compilation/01\ Just\ My\ Imagination.mp3
+/home/bard/Music/Music/Rolling\ Stones/Compilation/Rolling\ Stones\ -\ Saint\ of\ me.mp3
+/home/bard/Music/Music/Rolling\ Stones/Compilation/Waiting\ On\ A\ Friend.mp3
+/home/bard/Music/Music/Rolling\ Stones/Compilation/Memory\ Motel.mp3
+/home/bard/Music/Music/Rolling\ Stones/Compilation/I\ Got\ The\ Blues.mp3
+/home/bard/Music/Music/Rolling\ Stones/Compilation/Monkey\ Man.mp3
+/home/bard/Music/Music/Rolling\ Stones/Compilation/Mother\'s\ Little\ Helper.mp3
+/home/bard/Music/Music/Rolling\ Stones/Compilation/Saint\ of\ me\ 1.mp3
+/home/bard/Music/Music/Rolling\ Stones/Compilation/Wild\ Horses.mp3
+/home/bard/Music/Music/Rolling\ Stones/Compilation/Tumbling\ Dice.mp3
+/home/bard/Music/Music/Rolling\ Stones/Compilation/tumbling\ dice\ 2.mp3
+/home/bard/Music/Music/Rolling\ Stones/Compilation/You\ Can\'t\ Always\ Get\ What\ You\ Want.mp3
+/home/bard/Music/Music/Rolling\ Stones/Compilation/01\ Sister\ Morphene.mp3
+/home/bard/Music/Music/Rolling\ Stones/Compilation/Dead\ Flowers.mp3
+/home/bard/Music/Music/Rolling\ Stones/Compilation/03\ Shake\ Your\ Hips.mp3
+/home/bard/Music/Music/Rolling\ Stones/Compilation/Emotional\ Rescue.mp3
+/home/bard/Music/Music/Rolling\ Stones/Compilation/Under\ my\ Thumb.mp3
+/home/bard/Music/Music/Rolling\ Stones/Compilation/07\ Torn\ And\ Frayed.mp3
+/home/bard/Music/Music/Rolling\ Stones/Compilation/01\ Gimmie\ Shelter.mp3
+/home/bard/Music/Music/Rolling\ Stones/Compilation/04\ Casino\ Boogie.mp3
+/home/bard/Music/Music/Rolling\ Stones/Compilation/Brown\ Sugar.mp3
+/home/bard/Music/Music/Rolling\ Stones/Compilation/Cocksucker\ Blues\ \(\ version\ #2\ with\ Sugar\ Blue\ on\ harmonica\ \).mp3
+/home/bard/Music/Music/Rolling\ Stones/Compilation/Street\ Fighting\ Man.mp3
+/home/bard/Music/Music/Cantaloop/Living\ In\ The\ 90\'s\ --\ Disk\ 2/Flip\ Fantasia.mp3
+/home/bard/Music/Music/Talkin\ Heads/Unknown\ Album/Once\ In\ A\ Lifetime.mp3
+/home/bard/Music/Music/Styles\ P/Good\ Times\ \(VLS\)/02\ Good\ Times\ \(I\ Get\ High\).mp3
+/home/bard/Music/Music/JAY-Z/THE\ DYNASTY\ [\ ROC\ LA\ FAMILIA\ ]/03\ I\ JUST\ WANNA\ LOVE\ YOU\ \(GIVE\ IT\ TO\ ME\).mp3
+/home/bard/Music/Music/Bob\ Marley/Compilation/Buffalo\ Soldier.mp3
+/home/bard/Music/Music/Bob\ Marley/Compilation/Turn\ Your\ Lights\ Down\ Low.mp3
+/home/bard/Music/Music/Bob\ Marley/Compilation/Jammin.mp3
+/home/bard/Music/Music/Tom\ Waits/Small\ Change/The\ Piano\ Has\ Been\ Drinking.mp3
+/home/bard/Music/Music/Tom\ Waits/Rain\ Dogs/Clap\ Hands.mp3
+/home/bard/Music/Music/Tom\ Waits/Unknown\ Album/Who\ Are\ You.mp3
+/home/bard/Music/Music/Tom\ Waits/Unknown\ Album/Tom\ Traubert\'s\ Blues.mp3
+/home/bard/Music/Music/OutKast/Compilation/11\ Decatur\ Psalm.mp3
+/home/bard/Music/Music/OutKast/Compilation/01\ You\ May\ Die\ \(Intro\).mp3
+/home/bard/Music/Music/OutKast/Compilation/11\ Ms\ Jackson.mp3
+/home/bard/Music/Music/OutKast/Compilation/08\ Babylon.mp3
+/home/bard/Music/Music/OutKast/Compilation/06\ The\ Whole\ World.mp3
+/home/bard/Music/Music/OutKast/Compilation/14\ Spottieottiedopaliscious.mp3
+/home/bard/Music/Music/OutKast/Compilation/08\ B\ O\ B\ \(Bombs\ Over\ Bagdad\).mp3
+/home/bard/Music/Music/OutKast/Compilation/Gasoline\ Dreams.mp3
+/home/bard/Music/Music/OutKast/Compilation/10\ Crumblin\ Erb.mp3
+/home/bard/Music/Music/OutKast/Compilation/09\ Sothernplayalistkcadillacmuzik.mp3
+/home/bard/Music/Music/OutKast/Compilation/02\ Funkin\ Around.mp3
+/home/bard/Music/Music/OutKast/Compilation/15\ Git\ Up\ Git\ Out.mp3
+/home/bard/Music/Music/OutKast/Compilation/02\ Two\ Dope\ Boyz\ \(In\ A\ Cadillac\).mp3
+/home/bard/Music/Music/OutKast/Compilation/Outkast.mp3
+/home/bard/Music/Music/OutKast/Compilation/13\ Y\'all\ Scared.mp3
+/home/bard/Music/Music/OutKast/Compilation/06\ Elevators\ \(Me\ \&\ You\).mp3
+/home/bard/Music/Music/OutKast/Compilation/09\ Wailin\'.mp3
+/home/bard/Music/Music/OutKast/Compilation/03\ ATLiens.mp3
+/home/bard/Music/Music/OutKast/Compilation/12\ Millennium.mp3
+/home/bard/Music/Music/OutKast/Compilation/07\ Aquemni.mp3
+/home/bard/Music/Music/OutKast/Compilation/01\ Intro.mp3
+/home/bard/Music/Music/OutKast/Compilation/Shaft\ 2.mp3
+/home/bard/Music/Music/OutKast/Compilation/05\ Jazzy\ Belle.mp3
+/home/bard/Music/Music/OutKast/Compilation/outkast\ -\ sorry\ bin\ laden.mp3
+/home/bard/Music/Music/OutKast/Compilation/Outkast\ and\ Goodie\ Mo#18232.mp3
+/home/bard/Music/Music/OutKast/Compilation/14\ Liberation\ \(feat.\ Cee-Lo\).mp3
+/home/bard/Music/Music/OutKast/Compilation/15\ Elevators\ \(ONP\ B6\ Mix\).mp3
+/home/bard/Music/Music/OutKast/Compilation/13\ E.T.\ \(Extraterrestrial\).mp3
+/home/bard/Music/Music/OutKast/Compilation/13\ Elevators.mp3
+/home/bard/Music/Music/OutKast/Compilation/04\ So\ Fresh\ So\ Clean.mp3
+/home/bard/Music/Music/OutKast/Compilation/16\ Movin\ Cool.mp3
+/home/bard/Music/Music/OutKast/Compilation/22\ Slum\ Beautiful\ \(feat.\ Cee-Lo\ G.mp3
+/home/bard/Music/Music/OutKast/Compilation/07\ Ova\ Da\ Wudz.mp3
+/home/bard/Music/Music/OutKast/Compilation/12\ Players\ Ball.mp3
+/home/bard/Music/Music/OutKast/Compilation/10\ Mainstream.mp3
+/home/bard/Music/Music/OutKast/Compilation/Red\ Velvet.mp3
+/home/bard/Music/Music/OutKast/Compilation/03\ Aint\ No\ Thang.mp3
+/home/bard/Music/Music/OutKast/Compilation/04\ Wheelz\ Of\ Steel.mp3
+/home/bard/Music/Music/OutKast/Compilation/Shaft.mp3
+/home/bard/Music/Music/OutKast/Compilation/05\ Rosa\ Parks.mp3
+/home/bard/Music/Music/Jamiroquai/Compilation/Feels\ So\ Good.mp3
+/home/bard/Music/Music/Jamiroquai/Compilation/Virtual\ Insanity.mp3
+/home/bard/Music/Music/Jamiroquai/Compilation/Space\ Cowboy\ \(classic\ club\ mix\).mp3
+/home/bard/Music/Music/Jamiroquai/Compilation/Little\ L.mp3
+/home/bard/Music/Music/Jamiroquai/Compilation/01\ Feel\ so\ Good.mp3
+/home/bard/Music/Music/Oingo\ Boingo/Unknown\ Album/Private\ Life.mp3
+/home/bard/Music/Music/Nappy\ Roots/Watermelon,\ Chicken\ \&\ Gritz/04\ Hustla\ \(Clean\ Version\).mp3
+/home/bard/Music/Music/Red\ Hot\ Chili\ Peppers/Unknown\ Album/Foxy\ Lady.mp3
+/home/bard/Music/Music/Red\ Hot\ Chili\ Peppers/Unknown\ Album/Foxxy\ Lady.mp3
+/home/bard/Music/Music/Nico\ Suave/Unknown\ Album/Mach\ Die\ Augen\ Auf.mp3
+/home/bard/Music/Music/The\ Grass\ Roots/Music\ From\ The\ Miramax\ Motion\ Picture/13\ Midnight\ Confessions.mp3
+/home/bard/Music/Music/Scarface\ ft.\ Jay-Z\ \&\ Beanie\ Siegel/Unknown\ Album/Guess\ Who\'s\ Back.mp3
+/home/bard/Music/Music/Pulp\ Fiction\ Soundtrack/Unknown\ Album/Girl,\ You\'ll\ Be\ A\ Woman\ Soon.mp3
+/home/bard/Music/Music/Pulp\ Fiction\ Soundtrack/Unknown\ Album/Girl,\ You\'ll\ Be\ A\ Woman\ S.mp3
+/home/bard/Music/Music/nice\ and\ smooth/Unknown\ Album/Hip-Hop\ Junkies\ \(Spanish\ Fly\ Remix\).mp3
+/home/bard/Music/Music/Average\ White\ Band/Unknown\ Album/Play\ That\ Funky\ Music\ White\ Boy.mp3
+/home/bard/Music/Music/Average\ White\ Band/Unknown\ Album/01\ Pick\ Up\ The\ Pieces.mp3
+/home/bard/Music/Music/Average\ White\ Band/Unknown\ Album/Play\ that\ Funkey\ Music\ White\ Boy.mp3
+/home/bard/Music/Music/Mix/Unknown\ Album/George\ Clinton\ \(Q-Tip,\ Busta\ Rhymes,\ Old\ Dirty\ Bastard,\ Parliment\ Funkadelic\)\ -\ Flashlight.mp3
+/home/bard/Music/Music/The\ Pretenders/Compilation/Don\'t\ Get\ Me\ Wrong.mp3
+/home/bard/Music/Music/The\ Pretenders/Compilation/Back\ on\ the\ Chain\ Gang\ 3.mp3
+/home/bard/Music/Music/The\ Pretenders/Compilation/Back\ on\ the\ Chain\ Gang\ 2.mp3
+/home/bard/Music/Music/The\ Pretenders/Compilation/I\ got\ you\ babe.mp3
+/home/bard/Music/Music/The\ Pretenders/Compilation/Stop\ Your\ Sobbing.mp3
+/home/bard/Music/Music/The\ Pretenders/Compilation/Back\ To\ Ohio.mp3
+/home/bard/Music/Music/The\ Pretenders/Compilation/Brass\ In\ Pocket.mp3
+/home/bard/Music/Music/The\ Pretenders/Compilation/the\ pretenders\ -\ tattooed\ love\ boys.mp3
+/home/bard/Music/Music/The\ Pretenders/Compilation/04\ Talk\ Of\ The\ Town.mp3
+/home/bard/Music/Music/The\ Pretenders/Compilation/Brass\ in\ Pocket\ \(I\'m\ Special\).mp3
+/home/bard/Music/Music/The\ Pretenders/Compilation/Pretenders\ -\ Walkin\ on\ Sunshine.mp3
+/home/bard/Music/Music/The\ Pretenders/Compilation/Angel\ of\ the\ Morning.mp3
+/home/bard/Music/Music/The\ Pretenders/Compilation/Pretenders\ -\ Back\ to\ Ohio.mp3
+/home/bard/Music/Music/The\ Pretenders/Compilation/Back\ on\ the\ chain\ gang.mp3
+/home/bard/Music/Music/The\ Pretenders/Compilation/12\ Thin\ Line\ Between\ Love\ and\ Hate.mp3
+/home/bard/Music/Music/Earth\ Wind\ and\ Fire/Unknown\ Album/September.mp3
+/home/bard/Music/Music/Elliot\ Easton\'s\ Tiki\ Gods/Music\ From\ The\ Miramax\ Motion\ Picture/17\ Monte\ Carlo\ Nights.mp3
+/home/bard/Music/Music/Herbie\ Hancock/Maiden\ Voyage/The\ eye\ of\ the\ hurricane.mp3
+/home/bard/Music/Music/Herbie\ Hancock/Unknown\ Album/Cantaloupe\ Island.mp3
+/home/bard/Music/Music/Shaggy\ ft\ Sean\ Paul\ \ \ \ \ \ \ \ \ \ x/Hey\ Sexy\ Lady\ Just\ Blaze\ Remix/Hey\ Sexy\ Lady\ Just\ Blaze\ Remix.mp3
+/home/bard/Music/Music/Bowie/Unknown\ Album/Ground\ #18266.mp3
+/home/bard/Music/Music/Bowie/Unknown\ Album/Space\ Odysee.mp3
+/home/bard/Music/Music/Will\ Smith/Unknown\ Album/Freakin\'\ It.mp3
+/home/bard/Music/Music/Will\ Smith/Unknown\ Album/Gettin\ Jiggy\ With\ It.mp3
+/home/bard/Music/Music/2pac/Unknown\ Album/Heaven\ Got\ A\ Ghetto\ \(Hip\ hop\).mp3
+/home/bard/Music/Music/Chuck\ Berry/Unknown\ Album/Chuck\ Berry\ \&\ Bo\ Diddley\ -\ Roll\ Over\ Beethoven.mp3
+/home/bard/Music/Music/Chuck\ Berry/Unknown\ Album/Johnny\ B\ Good.mp3
+/home/bard/Music/Music/Chuck\ Berry/Unknown\ Album/You\ Never\ Can\ Tell.mp3
+/home/bard/Music/Music/Chuck\ Berry/Pulp\ Fiction\ Soundtrack/You\ never\ can\ tell.mp3
+/home/bard/Music/Music/Beasty\ Boys/Unknown\ Album/Fight\ For\ Your\ Right.mp3
+/home/bard/Music/Music/Beasty\ Boys/Unknown\ Album/Sabotoage.mp3
+/home/bard/Music/Music/Queen/Unknown\ Album/Bohemian\ Rhapsody.mp3
+/home/bard/Music/Music/P.\ Diddy\ feat.\ Loon,\ Ginuwine\ \&\ Mario\ Winans/P.\ Diddy\ \&\ Bad\ Boy\ Records\ Present...\ We\ Invented\ The\ Remix/03\ I\ Need\ A\ Girl\ \(Part\ 2\).mp3
+/home/bard/Music/Music/Wu-Tang\ Clan/Enter\ the\ Wu-Tang\(36\ chambers\)/Wu-Tang\ Clan\ ain\'t\ nu.mp3
+/home/bard/Music/Music/The\ Velvet\ Underground/Compilation/I\'m\ waiting\ for\ the\ man.mp3
+/home/bard/Music/Music/The\ Velvet\ Underground/Compilation/Venus\ In\ Furs.mp3
+/home/bard/Music/Music/The\ Velvet\ Underground/Compilation/08\ I\ Found\ A\ Reason.mp3
+/home/bard/Music/Music/The\ Velvet\ Underground/Compilation/Sunday\ Morning.mp3
+/home/bard/Music/Music/The\ Velvet\ Underground/Compilation/Oh!\ Sweet\ Nuthin\'.mp3
+/home/bard/Music/Music/The\ Velvet\ Underground/Compilation/06\ All\ Tomorrow's\ Parties.mp3
+/home/bard/Music/Music/The\ Velvet\ Underground/Compilation/Velvet\ Underground\ -\ The\ VU\ and\ Nico\ -\ 05\ Run\ run\ run.mp3
+/home/bard/Music/Music/The\ Velvet\ Underground/Compilation/I\'ll\ Be\ Your\ Mirror.mp3
+/home/bard/Music/Music/The\ Velvet\ Underground/Compilation/There\ She\ Goes\ Again.mp3
+/home/bard/Music/Music/Tenacious\ D/High\ Fidelity\ Soundtrack/Let\'s\ Get\ It\ On\ 1.mp3
+/home/bard/Music/Music/Tenacious\ D/High\ Fidelity\ Soundtrack/Let\'s\ Get\ It\ On.mp3
+/home/bard/Music/Music/GrandMaster\ Flash/Unknown\ Album/New\ York,\ NY.mp3
+/home/bard/Music/Music/Nico/Unknown\ Album/The\ Fairest\ Of\ The\ Seasons.mp3
+/home/bard/Music/Music/Nico/The\ Marble\ Index/Frozen\ Warnings.mp3
+/home/bard/Music/Music/Led\ Zeppelin/Compilation/What\ is\ and\ What\ Should\ Never\ Be.mp3
+/home/bard/Music/Music/Led\ Zeppelin/Compilation/Communication\ Breakdown.mp3
+/home/bard/Music/Music/Led\ Zeppelin/Compilation/Communication\ Breakdown\ 2.mp3
+/home/bard/Music/Music/Led\ Zeppelin/Compilation/Black\ Dog.mp3
+/home/bard/Music/Music/Led\ Zeppelin/Compilation/Good\ Times\ Bad\ Times.mp3
+/home/bard/Music/Music/Led\ Zeppelin/Compilation/Misty\ Mountain\ Top.mp3
+/home/bard/Music/Music/Led\ Zeppelin/Compilation/Led\ Zepplin\ -\ Misty\ Mountain\ Top.mp3
+/home/bard/Music/Music/Led\ Zeppelin/Compilation/Moby\ Dick\ 2.mp3
+/home/bard/Music/Music/Led\ Zeppelin/Compilation/Dyer\ Maker.mp3
+/home/bard/Music/Music/Led\ Zeppelin/Compilation/Dazed\ and\ Confused.mp3
+/home/bard/Music/Music/Led\ Zeppelin/Compilation/Hey,\ Hey,\ What\ Can\ I\ Do.mp3
+/home/bard/Music/Music/Led\ Zeppelin/Compilation/Moby\ Dick.mp3
+/home/bard/Music/Music/Led\ Zeppelin/Compilation/Black\ Dog\ 2.mp3
+/home/bard/Music/Music/Led\ Zeppelin/Compilation/Freebird.mp3
+/home/bard/Music/Music/Led\ Zeppelin/Compilation/Gallows\ Pole.mp3
+/home/bard/Music/Music/Led\ Zeppelin/Compilation/Babe-I\'m\ gonna\ leave\ you.mp3
+/home/bard/Music/Music/Led\ Zeppelin/Compilation/The\ Ocean.mp3
+/home/bard/Music/Music/Led\ Zeppelin/Compilation/Kashmir.mp3
+/home/bard/Music/Music/Led\ Zeppelin/Compilation/magic\ carpet\ ride.mp3
+/home/bard/Music/Music/Led\ Zeppelin/Compilation/Whole\ Lotta\ Love.mp3
+/home/bard/Music/Music/Led\ Zeppelin/Compilation/Ramble\ On\ 2.mp3
+/home/bard/Music/Music/Led\ Zeppelin/Compilation/01\ In\ the\ Evening.mp3
+/home/bard/Music/Music/Led\ Zeppelin/Compilation/Over\ The\ Hills\ And\ Far\ Away.mp3
+/home/bard/Music/Music/Led\ Zeppelin/Compilation/02\ South\ Bound\ Saurez.mp3
+/home/bard/Music/Music/Led\ Zeppelin/Compilation/04\ Hot\ Dog.mp3
+/home/bard/Music/Music/Led\ Zeppelin/Compilation/14\ All\ Of\ My\ Love.mp3
+/home/bard/Music/Music/Led\ Zeppelin/Compilation/Living\ Loving\ Maid\ \(She\'s.mp3
+/home/bard/Music/Music/Led\ Zeppelin/Compilation/Led\ Zeppelin\ \ \ \ Whole\ Lotta\ Love.mp3
+/home/bard/Music/Music/Led\ Zeppelin/Compilation/The\ Lemon\ Song.mp3
+/home/bard/Music/Music/Led\ Zeppelin/Compilation/Ramble\ On.mp3
+/home/bard/Music/Music/Led\ Zeppelin/Compilation/babe-i\'m-gonna-.mp3
+/home/bard/Music/Music/Led\ Zeppelin/Compilation/05\ Dancin\ Days.mp3
+/home/bard/Music/Music/Led\ Zeppelin/Compilation/I\'ve\ got\ a\ woman.mp3
+/home/bard/Music/Music/Led\ Zeppelin/Compilation/Stairway\ to\ Heaven\ \(live\).mp3
+/home/bard/Music/Music/Led\ Zeppelin/Compilation/Led\ zeplin\ --\ House\ of\ the\ rising\ sun\ \(1\).mp3
+/home/bard/Music/Music/Led\ Zeppelin/Compilation/I\ got\ a\ woman.mp3
+/home/bard/Music/Music/Dmx,\ Sean\ Paul\ \&amp;\ Mr.\ Vegas/Belly/Here\ comes\ da\ boom.mp3
+/home/bard/Music/Music/Right\ Said\ Fred/I\'m\ Too/I\'m\ Too.mp3
+/home/bard/Music/Music/Nate\ Dogg/Unknown\ Album/Area\ Codes.mp3
+/home/bard/Music/Music/DJ\ Spooky/Unknown\ Album/Galactic\ Funk.mp3
+/home/bard/Music/Music/Sarah\ Brightman/La\ Luna/A\ Whiter\ Shade\ of\ Pale.mp3
+/home/bard/Music/Music/Prince/Unknown\ Album/Purpel\ Rain.mp3
+/home/bard/Music/Music/Prince/Unknown\ Album/Sexy\ Motherfucker.mp3
+/home/bard/Music/Music/Prince/Unknown\ Album/Raspberry\ Beret.mp3
+/home/bard/Music/Music/50\ cent/Get\ Rich\ Or\ Die\ Trying/Dem\ Not\ Ready\ Feat.\ Sean\ Paul.mp3
+/home/bard/Music/Music/50\ cent/Unknown\ Album/In\ the\ club.mp3
+/home/bard/Music/Music/Brothers\ Johnson/Music\ From\ The\ Miramax\ Motion\ Picture/03\ Strawberry\ Letter\ 23.mp3
+/home/bard/Music/Music/Eminem/Compilation/19\ My\ Dad\'s\ Gone\ Crazy.mp3
+/home/bard/Music/Music/Eminem/Compilation/13\ Superman.mp3
+/home/bard/Music/Music/Eminem/Compilation/Cleaning\ Out\ My\ Closet.mp3
+/home/bard/Music/Music/Eminem/Compilation/Till\ I\ Collapse\ \(Remix\).mp3
+/home/bard/Music/Music/Eminem/Compilation/03\ Guilty\ Conscience.mp3
+/home/bard/Music/Music/Eminem/Compilation/If\ I\ Get\ Locked\ Up\ Tonight.mp3
+/home/bard/Music/Music/Eminem/Compilation/07\ The\ Way\ I\ Am.mp3
+/home/bard/Music/Music/Eminem/Compilation/Forgot\ About\ Dre.mp3
+/home/bard/Music/Music/Eminem/Compilation/The\ Way\ I\ Am.mp3
+/home/bard/Music/Music/Eminem/Compilation/Drug\ Ballad.mp3
+/home/bard/Music/Music/Eminem/Compilation/Eminem\ \&\ Shaggy\ -\ Eye\ Of\ The\ Tiger\ \(DJ\ Defcon\ Remix\).mp3.mp3
+/home/bard/Music/Music/Eminem/Compilation/Shroomz.mp3
+/home/bard/Music/Music/Eminem/Compilation/Ice\ Ice\ Baby\ VS\ The\ Real\ Slim\ Shady\ \(DJZ\ remix\).mp3
+/home/bard/Music/Music/Eminem/Compilation/Sweet\ Home\ Alabama\ -\ 8-mile.mp3
+/home/bard/Music/Music/Eminem/Compilation/Stan.mp3
+/home/bard/Music/Music/Eminem/Compilation/Big\ Pimpin\ remix\ \(unreleased\ and\ rare\).mp3
+/home/bard/Music/Music/Eminem/Compilation/Hailies\ Song.mp3
+/home/bard/Music/Music/Eminem/Compilation/02\ The\ Real\ Slim\ Shady\ \(Album\ Ver.mp3
+/home/bard/Music/Music/Eminem/Compilation/eminem\ -\ the\ marijuana\ mix.mp3
+/home/bard/Music/Music/Tears\ For\ Fears/Modern\ Rock\ 1988-1989\ \(Disc\ 1\)/09\ Sowing\ The\ Seeds\ Of\ Love.mp3
+/home/bard/Music/Music/Tears\ For\ Fears/Unknown\ Album/Tears\ For\ Fears\ -\ Eve#181AF.mp3
+/home/bard/Music/Music/Tears\ For\ Fears/Unknown\ Album/Everybody\ wants\ to\ rule\ the\ world.mp3
