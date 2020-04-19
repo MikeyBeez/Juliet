@@ -1,5 +1,5 @@
 # Juliet
-At the moment, I am beginning to port this over from Otto3.  I use a female voice; so calling her Otto makes no sense.  It's also an opportunity to refactor my code, and cleanup the installation process. That means this repo is not ready for prime time.  That being said, if you can set up your environment correctly, this code does work -- on my computer at least.
+At the moment, I am beginning to port this over from Otto3.  I use a female voice; so calling her Otto makes no sense.  It's also an opportunity to refactor my code, and cleanup the installation process. That means this repo is not ready for prime time.  That being said, if you can set up your environment correctly, this code does work and works well -- on my computer at least.
 
 Juliet answers to any name starting Juli.  So you can say "Juli Help," or "Julie Help," or "Juliet Help," or "Julius Help."
 
