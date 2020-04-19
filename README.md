@@ -17,20 +17,27 @@ Juliet requires git and python3. I use miniconda to create a virtual environment
    
    git clone Insert your url of the forked repository here  
   
-  # it should look something like this:  
+   it should look something like this:  
   
   https://github.com/MikeyBeez/Juliet.git
   
   cd Juliet
 
-# I make a conda environment from the included yaml file. I'm using python 3.6.1  There are probably more modules here than you need.  In any case, create a virtual environment any way you want, with virtualenv, Venv, Anaconda, or Miniconda.  I used Miniconda because it doesn't mess up Lambda Lab's Lambda Stack. 
-  1 conda env create --file=Juliet.yaml
-  # I need to cleanup this yaml file.  It has all my site packages too.
-  The frustrating part is that I will need to set this up from scratch in a virtual machine before it's ready for the wild.  Then I can prune this down to the minimum.   
+I make a conda environment from the included yaml file. I'm using python 3.6.1  There are probably more modules here than you need.  In any case, create a virtual environment any way you want, with virtualenv, Venv, Anaconda, or Miniconda.  I used Miniconda because it doesn't mess up Lambda Lab's Lambda Stack. 
+  
+  conda env create --file=Juliet.yaml
+  
+I need to cleanup this yaml file.  It has all my site packages too.
+The frustrating part is that I will need to set this up from scratch in a virtual machine before it's ready for the wild.  Then I can prune this down to the minimum.   
 
-I built kaldi from source.  I have a video to help do that.  It will point you to the kaldi tutorial and installation docs.  I recommend reading the kaldi git tutorial before you start, so that you fork and then clone properly.   
+I built kaldi from source.  I still don't know if this step is required.  vosk may have everything that's needed.  If you do build kaldi, I have a video to help do that.  It will point you to the kaldi tutorial and installation docs.  I recommend reading the kaldi git tutorial before you start, so that you fork and then clone properly.  
+https://www.youtube.com/watch?v=Kky-mdzYLq4
 
-You also need to clone vosk-api so that you'll have the demo code.  Get it on github.  Pypi has the right repo, so look there for the url.
+You also need to clone vosk-api so that you'll have the demo code.  Get it on github.  Pypi has the right repo, so look there for the url.  
 
-Vosk is installed with pip3.  It's in the yaml file; so you shouldn't need to do this.  "pip list| grep -i vosk"  will show you if it's installed. 
+The vosk module for python is installed with pip3.  It's in the yaml file; so you shouldn't need to do this.  "pip list| grep -i vosk"  will show you if it's installed.  I install pip3 models this way: 
+
+python3 -m pip install vosk
+
+
 
