@@ -21,6 +21,9 @@ def myCommand():
             myResult = rec.Result()
             myList = myResult.split("text")
             command = myList[1]
+            stream.stop_stream()
+            stream.close()
+            p.terminate()
             return command
 ######## END STT SPEECH TO TEXT FUNCTION THAT RETURNS THE VARIABLE: command
 ###############################################################################################
