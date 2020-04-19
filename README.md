@@ -15,7 +15,9 @@ Juliet requires git and python3. I use miniconda to create a virtual environment
    
    cd ~/Code
    
-   git clone <Insert your url of the forked repository here>  # it should look something like this:  
+   git clone <Insert your url of the forked repository here>  
+  
+  # it should look something like this:  
   
   https://github.com/MikeyBeez/Juliet.git
   
