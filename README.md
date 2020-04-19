@@ -12,9 +12,15 @@ Juliet requires git and python3. I use miniconda to create a virtual environment
    sudo apt install git
   
    mikdir ~/Code
+   
    cd ~/Code
-   git clone <Insert your url of the forked repository here>  # it should look something like this:  https://github.com/MikeyBeez/Juliet.git
-   cd Juliet
+   
+   git clone <Insert your url of the forked repository here>  # it should look something like this:  
+  
+  https://github.com/MikeyBeez/Juliet.git
+  
+  cd Juliet
+
 # I make a conda environment from the included yaml file. I'm using python 3.6.1  There are probably more modules here than you need.  In any case, create a virtual environment any way you want, with virtualenv, Venv, Anaconda, or Miniconda.  I used Miniconda because it doesn't mess up Lambda Lab's Lambda Stack. 
   1 conda env create --file=Juliet.yaml
   # I need to cleanup this yaml file.  It has all my site packages too.
