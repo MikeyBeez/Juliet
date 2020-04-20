@@ -161,12 +161,12 @@ def assistant(command, playcounter,totalsongstoplay):
             print("Song file:")
             print(song)
             playthis = 'mpg123 -q ' + song
-            #subprocess.call(playthis, shell=True)
             p1=subprocess.Popen(playthis, shell=True)
             try:
                 #while True:
-                while p1.poll is not None:
+                while p1.poll() is None:
                     pass
+                #p1.wait()
             except KeyboardInterrupt:
                 # Ctrl-C was pressed (or user knew how to send SIGTERM to the python process)
                 pass # not doing anything here, just needed to get out of the loop
@@ -176,14 +176,16 @@ def assistant(command, playcounter,totalsongstoplay):
             sleep(1)
             # check if still alive
             if p1.poll() is not None:
-                print('had to kill it')
+                print('process terminated')
                 p1.kill()
             #end new code
             if playcounter < totalsongstoplay:
                 playcounter = playcounter + 1
                 assistant(command, playcounter, totalsongstoplay)
-            else:
-                playcounter=1
+            #end if 
+            playcounter = 1
+
+
 # next command
 ######## End Query Stuff
 
