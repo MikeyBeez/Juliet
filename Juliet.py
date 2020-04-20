@@ -11,7 +11,7 @@
 ###############################################################################################
 
 import os
-import sys
+#import sys
 from SpeakAndHear import talktome
 from SpeakAndHear import mycommand
 from GreyMatter import julibrain
