@@ -11,7 +11,6 @@ import wikipedia
 from random import randrange
 import psutil
 import sys
-from vosk import Model, KaldiRecognizer
 from SpeakAndHear import talktome
 from GreyMatter import julibrain
 ###############################################################################################

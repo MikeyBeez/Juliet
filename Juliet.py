@@ -15,7 +15,7 @@ import sys
 from vosk import Model, KaldiRecognizer
 from SpeakAndHear import talktome
 from SpeakAndHear import mycommand
-from SpeakAndHear import julibrain
+from GreyMatter import julibrain
 ###############################################################################################
 ###############################################################################################
 #
@@ -36,14 +36,14 @@ def myVars():
 ###############################################################################################
 #####end myVars 
 
-###############################################################################################
-#####Check Model 
-def CheckModel():
-    if not os.path.exists("model-en"):
-        print ("Please download the model from https://github.com/alphacep/kaldi-android-demo/releases and unpack as 'model-en' in the current folder.")
-        exit(1)
-###############################################################################################
-#####End Check Model 
+################################################################################################
+######Check Model 
+#def CheckModel():
+#    if not os.path.exists("model-en"):
+#        print ("Please download the model from https://github.com/alphacep/kaldi-android-demo/releases and unpack as 'model-en' in the current folder.")
+#        exit(1)
+################################################################################################
+######End Check Model 
 
 ###############################################################################################
 ####Check if a process is already running
