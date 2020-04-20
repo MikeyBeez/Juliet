@@ -173,7 +173,8 @@ def assistant(command, playcounter,totalsongstoplay):
             #    pyautogui.hotkey('winleft', 'left')
             if playcounter <= totalsongstoplay:
                 playcounter = playcounter + 1
-                print(playcounter)
+                song = playcounter -1
+                print(song)
                 assistant(command, playcounter)
             else:
                 playcounter=1
