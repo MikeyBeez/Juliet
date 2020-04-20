@@ -136,7 +136,7 @@ def assistant(command, playcounter,totalsongstoplay):
             print("Disambiguation error") 
             talktome.talkToMe("Disambiguation error") 
 # next command
-    elif 'look up' in command:
+    elif 'look' in command:
         talktome.talkToMe("Searching Wikipedia . . . ")
         command = command.replace("julia", "")
         command = command.replace("julius", "")
@@ -247,7 +247,7 @@ def assistant(command, playcounter,totalsongstoplay):
 
 # next command
 
-    elif 'stop listening' in command or 'stopped listening' in command:
+    elif 'stop' in command or 'stopped' in command or "listening" in command:
         talktome.talkToMe("Goodbye, Sir, powering off")
         print("Goodbye, Sir, powering off")
         quit()
