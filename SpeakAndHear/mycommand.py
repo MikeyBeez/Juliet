@@ -17,6 +17,11 @@ def CheckMyModel():
 def myCommand():
     # "listens for commands"
     # We imported vosk up above.
+    try:
+        CheckMyModel()
+        print("checking model")
+    except SystemExit as e:
+        print(e)
     p = pyaudio.PyAudio()
     stream = p.open(format=pyaudio.paInt16, channels=1, rate=16000, input=True, frames_per_buffer=8000)
     stream.start_stream()
