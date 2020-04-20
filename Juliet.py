@@ -31,7 +31,7 @@ import initualizejuliet as ij
 
 ################################################################################################
 ###### Start myVars.
-#def myVars():
+def myVars():
     myDir = os.getcwd()
     global playcounter 
     playcounter = 0
