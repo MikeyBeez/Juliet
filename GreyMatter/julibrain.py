@@ -184,7 +184,6 @@ def assistant(command, playcounter,totalsongstoplay):
                 assistant(command, playcounter, totalsongstoplay)
             else:
                 playcounter=1
-                break
 # next command
 ######## End Query Stuff
 
