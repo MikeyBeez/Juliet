@@ -156,7 +156,8 @@ def assistant(command, playcounter,totalsongstoplay):
             mymusic = f.read().splitlines()
             random_index = randrange(len(mymusic))
             song = mymusic[random_index]
-            print(playcounter)
+            print("Playing song number " + str(playcounter))
+            print("Song Title:")
             print(song)
             playthis = 'mpg123 -q ' + song
             subprocess.call(playthis, shell=True)
