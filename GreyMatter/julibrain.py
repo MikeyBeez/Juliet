@@ -152,7 +152,8 @@ def assistant(command, playcounter,totalsongstoplay):
         if playcounter == 1:
             talktome.talkToMe("Choosing random song . . . ")
         with open('/home/bard/Code/Otto3/mymusiclist.txt') as f:
-            print("Total songs to play " + str(totalsongstoplay) + ".")
+            if playcounter = 1:
+                print("Total songs to play " + str(totalsongstoplay) + ".")
             mymusic = f.read().splitlines()
             random_index = randrange(len(mymusic))
             song = mymusic[random_index]
@@ -161,23 +162,8 @@ def assistant(command, playcounter,totalsongstoplay):
             print(song)
             playthis = 'mpg123 -q ' + song
             subprocess.call(playthis, shell=True)
-            #subprocess.Popen(playthis, shell=True)
-            #proc = Popen([playthis], shell=True, stdin=None, stderr=None, close_fds=True)
-            #if checkIfProcessRunning('projectM-pulseaudio'):
-            #    print('Yes a projectM process was running')
-            #else:
-            #    print('No projectM process was running')
-            #    pmcommand = 'projectM-pulseaudio 2>/dev/null'
-            #    subprocess.call(pmcommand, shell=True)
-            #    pyautogui.moveTo(301, 300, duration=.1)
-            #    pyautogui.click()
-            #    pyautogui.hotkey('winleft', 'up')
-            #    pyautogui.click()
-            #    pyautogui.hotkey('winleft', 'left')
-            if playcounter <= totalsongstoplay:
+            if playcounter < totalsongstoplay:
                 playcounter = playcounter + 1
-                #song = playcounter -1
-                #print(song)
                 assistant(command, playcounter, totalsongstoplay)
             else:
                 playcounter=1
