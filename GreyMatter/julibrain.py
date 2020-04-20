@@ -152,9 +152,11 @@ def assistant(command, playcounter,totalsongstoplay):
         if playcounter == 1:
             talktome.talkToMe("Choosing random song . . . ")
         with open('/home/bard/Code/Otto3/mymusiclist.txt') as f:
+            print("Total songs to play " + totalsongstoplay + ".")
             mymusic = f.read().splitlines()
             random_index = randrange(len(mymusic))
             song = mymusic[random_index]
+            print(playcounter)
             print(song)
             playthis = 'mpg123 -q ' + song
             subprocess.call(playthis, shell=True)
@@ -173,9 +175,9 @@ def assistant(command, playcounter,totalsongstoplay):
             #    pyautogui.hotkey('winleft', 'left')
             if playcounter <= totalsongstoplay:
                 playcounter = playcounter + 1
-                song = playcounter -1
-                print(song)
-                assistant(command, playcounter)
+                #song = playcounter -1
+                #print(song)
+                assistant(command, playcounter, totalsongstoplay)
             else:
                 playcounter=1
 # next command

@@ -27,7 +27,8 @@ def myVars():
     # Global variables that control how many songs are played at a time (Julia play music.)
     global playcounter 
     playcounter = 1
-    global totalsongstoplay = 3
+    # totalsongstoplay is set below in main()
+    global totalsongstoplay 
     # Wakeword constant (not yet implemented.)
     wakeWord = "juli" 
 ################################################################################################
@@ -41,6 +42,7 @@ def main():
         ij.CheckMyModel()
     except SystemExit as e:
         print(e)
+    totalsongstoplay = 3
     # End initialize.
 
     # Loop over and over to continuously execute multiple commands.
