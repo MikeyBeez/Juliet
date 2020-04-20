@@ -60,7 +60,7 @@ def main():
 
     # Loop over and over to continuously execute multiple commands.
 
-    talkToMe("To get started, You can say julia help.")
+    talktome.talkToMe("To get started, You can say julia help.")
     print("To get started, You can say 'Julia help.'")
     talktome.talkToMe("Hello, Sir.  How can I be of assistance?")
     print("Hello, Sir.  How can I be of assistance?")
