@@ -14,13 +14,43 @@ import sys
 from SpeakAndHear import talktome
 from GreyMatter import julibrain
 ###############################################################################################
+################################################################################################
+#####myVars
+#def myVars():
+#    myDir = os.getcwd()
+#    global playcounter 
+#    playcounter = 0
+#    wakeWord = "juli" 
+################################################################################################
+###############################################################################################
+####Check if a process is already running
+def checkIfProcessRunning(processName):
+    '''
+    Check if there is any running process that contains the given name processName.
+    '''
+    #Iterate over the all the running process
+    for proc in psutil.process_iter():
+        try:
+            # Check if process name contains the given name string.
+            if processName.lower() in proc.name().lower():
+                return True
+        except (psutil.NoSuchProcess, psutil.AccessDenied, psutil.ZombieProcess):
+            pass
+    return False
+###############################################################################################
+####End Check if a process is already running
+
+
 ###############################################################################################
 # This is Juliet's brain.
 # All her commands and logic are called here.
 ###############################################################################################
+
+
 ######## BEGIN GIGANTIC ASSISTANT FUNCTION
 def assistant(command, playcounter):
 ######## Big If Statement for Executing Commands
+
 ######## Open Stuff
     if 'open reddit' in command:
         #reg_ex = re.search('open reddit (.*)', command)
