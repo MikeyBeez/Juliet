@@ -15,6 +15,7 @@ import sys
 from vosk import Model, KaldiRecognizer
 from SpeakAndHear import talktome
 from SpeakAndHear import mycommand
+from SpeakAndHear import CheckModel
 from GreyMatter import julibrain
 ###############################################################################################
 ###############################################################################################
@@ -351,7 +352,7 @@ def checkIfProcessRunning(processName):
 def main():
     myVars()
     try:
-        CheckModel()
+        SpeakAndHear.CheckModel()
     except SystemExit as e:
         print(e)
     #loop to continue executing multiple commands
