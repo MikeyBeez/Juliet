@@ -152,7 +152,7 @@ def assistant(command, playcounter,totalsongstoplay):
         if playcounter == 1:
             talktome.talkToMe("Choosing random song . . . ")
         with open('/home/bard/Code/Otto3/mymusiclist.txt') as f:
-            print("Total songs to play " + totalsongstoplay + ".")
+            print("Total songs to play " + str(totalsongstoplay) + ".")
             mymusic = f.read().splitlines()
             random_index = randrange(len(mymusic))
             song = mymusic[random_index]
