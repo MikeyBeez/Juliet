@@ -363,6 +363,7 @@ def main():
 
     while True:
         output = mycommand.myCommand()[3:]
+        # respond to Julie, Julia, Julius, or Juliet
         if 'juli' in output:
             print('The Julia responds:\n')
             assistant(output, playcounter)
