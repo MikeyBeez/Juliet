@@ -14,7 +14,7 @@ import psutil
 import sys
 from vosk import Model, KaldiRecognizer
 from SpeakAndHear import talktome
-from GreyMatter import julibrain
+from GreyMatter import mycommand
 ###############################################################################################
 ###############################################################################################
 # This is Juliet's brain.
