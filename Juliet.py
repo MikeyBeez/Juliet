@@ -51,7 +51,7 @@ def myVars():
 ######## START MAIN PROGRAM.
 def main():
     # Initialize.
-    ij.myVars()
+    myVars()
     try:
         ij.CheckMyModel()
     except SystemExit as e:
