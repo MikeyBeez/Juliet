@@ -6,7 +6,7 @@ from vosk import Model, KaldiRecognizer
 ################################################################################################
 ######Check Model 
 def CheckMyModel():
-    if not os.path.exists("../model-en"):
+    if not os.path.exists("model-en"):
         print ("Please download the model from https://github.com/alphacep/kaldi-android-demo/releases and unpack as 'model-en' in the current folder.")
         exit(1)
 ################################################################################################
@@ -17,11 +17,6 @@ def CheckMyModel():
 def myCommand():
     # "listens for commands"
     # We imported vosk up above.
-    try:
-        CheckMyModel()
-        print("checking model")
-    except SystemExit as e:
-        print(e)
     p = pyaudio.PyAudio()
     stream = p.open(format=pyaudio.paInt16, channels=1, rate=16000, input=True, frames_per_buffer=8000)
     stream.start_stream()

@@ -36,9 +36,22 @@ def myVars():
 ###############################################################################################
 #####end myVars 
 
+################################################################################################
+######Check Model 
+def CheckMyModel():
+    if not os.path.exists("model-en"):
+        print ("Please download the model from https://github.com/alphacep/kaldi-android-demo/releases and unpack as 'model-en' in the current folder.")
+        exit(1)
+################################################################################################
+######End Check Model 
+
 ######## START MAIN PROGRAM
 def main():
     myVars()
+    try:
+        CheckMyModel()
+    except SystemExit as e:
+        print(e)
     #loop to continue executing multiple commands
     #talkToMe("To get started, You can say julia help.")
     print("To get started, You can say 'Julia help.'")
