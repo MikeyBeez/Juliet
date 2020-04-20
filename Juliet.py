@@ -32,10 +32,10 @@ import initualizejuliet as ij
 ################################################################################################
 ###### Start myVars.
 #def myVars():
-#    myDir = os.getcwd()
-#    global playcounter 
-#    playcounter = 0
-#    wakeWord = "juli" 
+    myDir = os.getcwd()
+    global playcounter 
+    playcounter = 0
+    wakeWord = "juli" 
 ################################################################################################
 ###### End myVars.
 #
