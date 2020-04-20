@@ -42,7 +42,7 @@ def main():
         ij.CheckMyModel()
     except SystemExit as e:
         print(e)
-    totalsongstoplay = 3
+    totalsongstoplay = 2
     # End initialize.
 
     # Loop over and over to continuously execute multiple commands.
