@@ -1,4 +1,3 @@
-#!/home/bard/miniconda3/envs/Juliet/bin/python
 ###############################################################################################
 import pyaudio
 import pyautogui
