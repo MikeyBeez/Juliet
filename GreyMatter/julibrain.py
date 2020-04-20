@@ -48,7 +48,7 @@ def checkIfProcessRunning(processName):
 
 
 ######## BEGIN GIGANTIC ASSISTANT FUNCTION
-def assistant(command, playcounter):
+def assistant(command, playcounter,totalsongstoplay):
 ######## Big If Statement for Executing Commands
 
 ######## Open Stuff
@@ -149,7 +149,7 @@ def assistant(command, playcounter):
         talktome.talkToMe(results)
 # next command
     elif 'music' in command:
-        if playcounter == 0:
+        if playcounter == 1:
             talktome.talkToMe("Choosing random song . . . ")
         with open('/home/bard/Code/Otto3/mymusiclist.txt') as f:
             mymusic = f.read().splitlines()
@@ -171,12 +171,12 @@ def assistant(command, playcounter):
             #    pyautogui.hotkey('winleft', 'up')
             #    pyautogui.click()
             #    pyautogui.hotkey('winleft', 'left')
-            if playcounter <= 2:
+            if playcounter <= totalsongstoplay:
                 playcounter = playcounter + 1
                 print(playcounter)
                 assistant(command, playcounter)
             else:
-                playcounter=0
+                playcounter=1
 # next command
 ######## End Query Stuff
 

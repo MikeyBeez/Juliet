@@ -10,19 +10,25 @@
 ###############################################################################################
 ###############################################################################################
 
+# Import system modules.
 import os
-#import sys
+# Import my own modules in sub directories.
 from SpeakAndHear import talktome
 from SpeakAndHear import mycommand
 from GreyMatter import julibrain
+# Import my own modules in this directory.
 import initualizejuliet as ij
 
 ################################################################################################
 ###### Start myVars.
 def myVars():
+    # Current working directory.
     myDir = os.getcwd()
+    # Global variables that control how many songs are played at a time (Julia play music.)
     global playcounter 
-    playcounter = 0
+    playcounter = 1
+    global totalsongstoplay = 3
+    # Wakeword constant (not yet implemented.)
     wakeWord = "juli" 
 ################################################################################################
 ###### End myVars.
@@ -50,7 +56,7 @@ def main():
         # Respond to wake words "Julie," "Julia," "Julius," or "Juliet."
         if 'juli' in output:
             print('The Julia responds:\n')
-            julibrain.assistant(output, playcounter)
+            julibrain.assistant(output, playcounter, totalsongstoplay)
             print(output)
 
         elif '""' in output:
