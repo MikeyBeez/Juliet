@@ -4,7 +4,7 @@ import pyautogui
 import subprocess 
 import os
 import webbrowser
-from time import localtime, strftime
+from time import localtime, strftime, sleep
 import re
 import requests
 import wikipedia
@@ -161,7 +161,24 @@ def assistant(command, playcounter,totalsongstoplay):
             print("Song file:")
             print(song)
             playthis = 'mpg123 -q ' + song
-            subprocess.call(playthis, shell=True)
+            #subprocess.call(playthis, shell=True)
+            p1=subprocess.Popen(playthis, shell=True)
+            try:
+                #while True:
+                while p1.poll is not None:
+                    pass
+            except KeyboardInterrupt:
+                # Ctrl-C was pressed (or user knew how to send SIGTERM to the python process)
+                pass # not doing anything here, just needed to get out of the loop
+            # nicely ask the subprocess to stop
+            p1.terminate()
+            # read final output
+            sleep(1)
+            # check if still alive
+            if p1.poll() is not None:
+                print('had to kill it')
+                p1.kill()
+            #end new code
             if playcounter < totalsongstoplay:
                 playcounter = playcounter + 1
                 assistant(command, playcounter, totalsongstoplay)
