@@ -354,7 +354,6 @@ def main():
     except SystemExit as e:
         print(e)
     #loop to continue executing multiple commands
-    #Uncomment the following line for noobs
     #talkToMe("To get started, You can say julia help.")
     print("To get started, You can say 'Julia help.'")
     print("To get started, You can say 'Julia help.'")
