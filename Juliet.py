@@ -17,6 +17,8 @@ from vosk import Model, KaldiRecognizer
 from SpeakAndHear import talktome
 from SpeakAndHear import mycommand
 from GreyMatter import julibrain
+import initualizejuliet as ij
+
 ###############################################################################################
 ###############################################################################################
 #
@@ -27,31 +29,31 @@ from GreyMatter import julibrain
 ###############################################################################################
 ###############################################################################################
 
-###############################################################################################
-##### Start myVars.
-def myVars():
-    myDir = os.getcwd()
-    global playcounter 
-    playcounter = 0
-    wakeWord = "juli" 
-###############################################################################################
-##### End myVars.
-
 ################################################################################################
-######Check Model. 
-def CheckMyModel():
-    if not os.path.exists("model-en"):
-        print ("Please download the model from https://github.com/alphacep/kaldi-android-demo/releases and unpack as 'model-en' in the current folder.")
-        exit(1)
+###### Start myVars.
+#def myVars():
+#    myDir = os.getcwd()
+#    global playcounter 
+#    playcounter = 0
+#    wakeWord = "juli" 
 ################################################################################################
-######End Check Model.
+###### End myVars.
+#
+#################################################################################################
+#######Check Model. 
+#def CheckMyModel():
+#    if not os.path.exists("model-en"):
+#        print ("Please download the model from https://github.com/alphacep/kaldi-android-demo/releases and unpack as 'model-en' in the current folder.")
+#        exit(1)
+#################################################################################################
+#######End Check Model.
 
 ######## START MAIN PROGRAM.
 def main():
     # Initialize.
-    myVars()
+    ij.myVars()
     try:
-        CheckMyModel()
+        ij.CheckMyModel()
     except SystemExit as e:
         print(e)
     # End initialize.
