@@ -1,25 +1,6 @@
 #!/home/bard/miniconda3/envs/Juliet/bin/python
 
 ###############################################################################################
-import pyaudio
-import pyautogui
-import subprocess 
-import os
-import webbrowser
-from time import localtime, strftime
-import re
-import requests
-import wikipedia
-from random import randrange
-import psutil
-import sys
-from vosk import Model, KaldiRecognizer
-from SpeakAndHear import talktome
-from SpeakAndHear import mycommand
-from GreyMatter import julibrain
-import initualizejuliet as ij
-
-###############################################################################################
 ###############################################################################################
 #
 #   Welcome to Juliet -- your virtual assistant.
@@ -28,6 +9,24 @@ import initualizejuliet as ij
 #
 ###############################################################################################
 ###############################################################################################
+
+#import pyaudio
+#import pyautogui
+#import subprocess 
+import os
+#import webbrowser
+#from time import localtime, strftime
+#import re
+#import requests
+#import wikipedia
+#from random import randrange
+#import psutil
+import sys
+#from vosk import Model, KaldiRecognizer
+from SpeakAndHear import talktome
+from SpeakAndHear import mycommand
+from GreyMatter import julibrain
+import initualizejuliet as ij
 
 ################################################################################################
 ###### Start myVars.
@@ -38,15 +37,6 @@ def myVars():
     wakeWord = "juli" 
 ################################################################################################
 ###### End myVars.
-#
-#################################################################################################
-#######Check Model. 
-#def CheckMyModel():
-#    if not os.path.exists("model-en"):
-#        print ("Please download the model from https://github.com/alphacep/kaldi-android-demo/releases and unpack as 'model-en' in the current folder.")
-#        exit(1)
-#################################################################################################
-#######End Check Model.
 
 ######## START MAIN PROGRAM.
 def main():
@@ -77,6 +67,7 @@ def main():
         elif '""' in output:
             pass
 ######## END MAIN FUNCTION
-######## CALL MAIN FUNCTION
+
+######## CALL FUNCTION
 main()
 ###############################################################################################
