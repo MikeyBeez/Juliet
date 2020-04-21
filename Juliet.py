@@ -20,35 +20,39 @@ from GreyMatter import julibrain
 import initualizejuliet as ij
 
 ################################################################################################
-###### Start myVars.
+# Start myVars.
+
+
 def myVars():
     # Current working directory.
     myDir = os.getcwd()
     # Global variables that control how many songs are played at a time (Julia play music.)
-    global playcounter 
+    global playcounter
     playcounter = 1
     # totalsongstoplay is set below in main()
-    global totalsongstoplay 
+    global totalsongstoplay
 ################################################################################################
-###### End myVars.
+# End myVars.
 
-######## START MAIN PROGRAM.
+# START MAIN PROGRAM.
+
+
 def main():
     # Initialize.
     myVars()
     try:
-        #kaldi.Recognizer requires a model.  Make sure we have it.  Otherwise say where to get it.
+        # kaldi.Recognizer requires a model.  Make sure we have it.  Otherwise say where to get it.
         ij.CheckMyModel()
     except SystemExit as e:
         print(e)
-    # This is where to set the number of songs to play when you say "Julie play music."     
+    # This is where to set the number of songs to play when you say "Julie play music."
     totalsongstoplay = 2
     # End initialize.
 
     # Say and print some helpful infomtion.
     talktome.talkToMe("To get started, You can say Julie Julie help.")
     print("To get started, You can say 'Julie Julie help.'")
-    talktome.talkToMe("I am Julie Julie. How can I help?")  
+    talktome.talkToMe("I am Julie Julie. How can I help?")
     print("How can I help?")
 
     # Loop over and over to continuously execute multiple commands.
@@ -61,17 +65,22 @@ def main():
             print('Julia responds:\n')
             # The assistant function performs whatever action is found that matches the variable named "output."
             # Also, variables are passed in case you ask to play music.
-            julibrain.assistant(output, playcounter, totalsongstoplay)
+            try:
+                julibrain.assistant(output, playcounter, totalsongstoplay)
+            except Exception as e:
+                print(e)
+
             # Whatever you said is printed out, so you can see what Julie understood.
             # This will help you speak more clearly, if you see she doesn't understand.
             print(output)
 
         elif '""' in output:
             pass
-######## END MAIN FUNCTION
+# END MAIN FUNCTION
 
 # None of the code up above this line runs unless main is called.
 
-######## CALL THE MAIN FUNCTION HERE
+
+# CALL THE MAIN FUNCTION HERE
 main()
 ###############################################################################################
