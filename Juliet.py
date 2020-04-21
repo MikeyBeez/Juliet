@@ -31,6 +31,7 @@ def myVars():
     playcounter = 1
     # totalsongstoplay is set below in main()
     global totalsongstoplay
+    test = 0
 ################################################################################################
 # End myVars.
 
@@ -66,7 +67,7 @@ def main():
             # The assistant function performs whatever action is found that matches the variable named "output."
             # Also, variables are passed in case you ask to play music.
             try:
-                julibrain.assistant(output, playcounter, totalsongstoplay)
+                julibrain.assistant(output, playcounter, totalsongstoplay, test)
             except Exception as e:
                 print(e)
 
@@ -83,4 +84,3 @@ def main():
 
 # CALL THE MAIN FUNCTION HERE
 main()
-###############################################################################################
