@@ -48,7 +48,7 @@ def main():
     # Say and print some helpful infomtion.
     talktome.talkToMe("To get started, You can say Julie Julie help.")
     print("To get started, You can say 'Julie Julie help.'")
-    talktome.talkToMe("How can I help?")
+    talktome.talkToMe("I am Julie Julie. How can I help?")  
     print("How can I help?")
 
     # Loop over and over to continuously execute multiple commands.
