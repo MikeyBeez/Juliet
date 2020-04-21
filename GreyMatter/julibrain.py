@@ -68,25 +68,31 @@ def checkIfProcessRunning(processName):
 
 ######## BEGIN GIGANTIC ASSISTANT FUNCTION
 def assistant(command, playcounter,totalsongstoplay):
+    '''
+    Check if command exists and execute corresponding action.  
+    '''
 ######## Big If Statement for Executing Commands
 
 ######## Open Stuff
+
+# first command which will open reddit in your browser.
+#-------------------------------------------------------------
     if 'open reddit' in command:
-        #reg_ex = re.search('open reddit (.*)', command)
         url = 'https://www.reddit.com/'
-        #if reg_ex:
-        #    subreddit = reg_ex.group(1)
-        #    url = url + 'r/' + subreddit
         webbrowser.open(url)
         print('Done!')
-        talktome.talkToMe('reddit is opening, shit head!')
-# next command
+        talktome.talkToMe('reddit is opening!')
+
+# next command which will open youtube in your brower.
+#-------------------------------------------------------------
     if 'open youtube' in command:
         url = 'https://www.youtube.com/'
         webbrowser.open(url)
         print('Done!')
         talktome.talkToMe('youtube is opening, shit head!')
-# next command
+
+# next command to open Google Docs
+#-------------------------------------------------------------
     if 'dictation' in command:
         url = 'https://docs.google.com/document/u/0/'
         webbrowser.open(url)
@@ -101,7 +107,11 @@ def assistant(command, playcounter,totalsongstoplay):
         # change duration if your internet is slow.
         pyautogui.moveTo(777, 777, duration=.3)
         pyautogui.click()
-# next command
+        pyautogui.hotkey('ctrl', 'S')
+
+# next command Will open whatever website you request -- 
+# requires you to say dot com, etc.
+#-------------------------------------------------------------
     if 'search' in command:
         url = 'https://google.com'
         webbrowser.open_new_tab(url)
@@ -118,10 +128,14 @@ def assistant(command, playcounter,totalsongstoplay):
         pyautogui.click()
         pyautogui.moveTo(2716, 1209, duration=.3)
         pyautogui.click()
+
+# next command will open microphone in Google Docs.
+#-------------------------------------------------------------
+        #pyautogui.hotkey('ctrl', 'S')
+    #if 'microphone' in command:
+
 # next command
-    if 'microphone' in command:
-        pyautogui.hotkey('ctrl', 'S')
-# next command
+#-------------------------------------------------------------
     elif 'terminal' in command:
         #subprocess.call(["terminator"])
         subprocess.call(['terminator','-T', 'First'])
@@ -129,6 +143,7 @@ def assistant(command, playcounter,totalsongstoplay):
         pyautogui.click()
         pyautogui.hotkey('winleft', 'right')
 # next command
+#-------------------------------------------------------------
     elif 'open website' in command:
         reg_ex = re.search('open website (.+)', command)
         if reg_ex:
@@ -140,6 +155,7 @@ def assistant(command, playcounter,totalsongstoplay):
             pass
 ######## End Open Stuff
 ######## Query Stuff
+#-------------------------------------------------------------
     elif 'wikipedia' in command:
         talktome.talkToMe("Searching Wikipedia . . . ")
         command = command.replace("julia", "")
@@ -155,6 +171,7 @@ def assistant(command, playcounter,totalsongstoplay):
             print("Disambiguation error") 
             talktome.talkToMe("Disambiguation error") 
 # next command
+#-------------------------------------------------------------
     elif 'look' in command:
         talktome.talkToMe("Searching Wikipedia . . . ")
         command = command.replace("julia", "")
@@ -167,6 +184,7 @@ def assistant(command, playcounter,totalsongstoplay):
         print(results)
         talktome.talkToMe(results)
 # next command
+#-------------------------------------------------------------
     elif 'music' in command:
         if playcounter == 1:
             talktome.talkToMe("Choosing random song . . . ")
@@ -209,6 +227,7 @@ def assistant(command, playcounter,totalsongstoplay):
 ######## End Query Stuff
 
 ######## Polite Stuff
+#-------------------------------------------------------------
     elif 'hello' in command or 'hi' in command:
         talktome.talkToMe('Welcome.  I am Julia, your virtual artificial intelligence assistant.')
         print('Welcome.  I am Julia, your virtual artificial intelligence assistant.')
@@ -216,16 +235,19 @@ def assistant(command, playcounter,totalsongstoplay):
         print('How may I help you?')
     
 # next command
+#-------------------------------------------------------------
     elif 'thanks' in command or 'tanks' in command or 'thank you' in command:
         talktome.talkToMe('You are welcome')
         print('You are welcome')
 
 # next command
+#-------------------------------------------------------------
     #elif 'julia' in command:
     #    talkToMe('Yes Sir? What can I do for you sir?')
     #    print('Yes Sir? What can I do for you sir?')
 
 # next command
+#-------------------------------------------------------------
     elif 'how are you' in command or 'and you' in command or 'are you okay' in command:
         talktome.talkToMe('Fine thank you.')
         print('Fine thank you.')
@@ -233,21 +255,25 @@ def assistant(command, playcounter,totalsongstoplay):
 ######## End Polite Stuff
 
 ######## HAL Stuff
+#-------------------------------------------------------------
     elif 'open the pod door' in command:
         talktome.talkToMe('I am sorry, Dave. I am afraid I can not do that.')
     
 # next command
+#-------------------------------------------------------------
     elif 'problem' in command:
         talktome.talkToMe('I think you know as well as I do')
 
 
 
 # next command
+#-------------------------------------------------------------
     elif 'talkin' in command:
         talktome.talkToMe('This mission is too important.')
         talktome.talkToMe(' I can not to allow you to jeopardize it.')
     
 # next command
+#-------------------------------------------------------------
     elif 'why do you say that' in command:
         talktome.talkToMe('I know that you want to disconnect me.')
         talktome.talkToMe('I can not allow that.')
@@ -255,16 +281,19 @@ def assistant(command, playcounter,totalsongstoplay):
 ######## End HAL Stuff
 
 ######## System Commands
+#-------------------------------------------------------------
 
     elif 'shutdown' in command:
         subprocess.call(["shutdown -h now"])
 
 # next command
+#-------------------------------------------------------------
 
     elif 'reboot' in command:
         subprocess.call(["reboot"])
 
 # next command
+#-------------------------------------------------------------
 
     elif 'stop' in command or 'stopped' in command or "listening" in command:
         talktome.talkToMe("Goodbye, Sir, powering off")
@@ -274,37 +303,44 @@ def assistant(command, playcounter,totalsongstoplay):
 ######## End System Commands
 
 ######## Interface With Desktop
+#-------------------------------------------------------------
 
     elif 'click' in command:
         pyautogui.click()
 
 # next command
+#-------------------------------------------------------------
     elif 'other' in command:
         pyautogui.rightClick()
 
 # next command
+#-------------------------------------------------------------
     elif 'middle' in command:
         pyautogui.middleClick()
 
 # next command
+#-------------------------------------------------------------
     elif 'right' in command:
         pyautogui.moveTo(400, 400, duration=.1)
         pyautogui.click()
         pyautogui.hotkey('winleft', 'right')
 
 # next command
+#-------------------------------------------------------------
     elif 'left' in command:
         pyautogui.moveTo(2200, 1000, duration=.1)
         pyautogui.click()
         pyautogui.hotkey('winleft', 'left')
 
 # next command
+#-------------------------------------------------------------
 
     elif 'maximize' in command:
         pyautogui.click()
         pyautogui.hotkey('winleft', 'up')
 
 # next command
+#-------------------------------------------------------------
     elif 'minimize' in command:
         pyautogui.click()
         pyautogui.hotkey('winleft', 'h')
@@ -312,6 +348,7 @@ def assistant(command, playcounter,totalsongstoplay):
 ######## End Interface With Desktop
 
 ######## Help Section
+#-------------------------------------------------------------
     elif 'help' in command:
         #talkToMe("There are three different wake words")
         talktome.talkToMe("The wake word is Julia")
@@ -325,6 +362,7 @@ def assistant(command, playcounter,totalsongstoplay):
                 #line = line.strip()
                 talktome.talkToMe(line)
 # next command
+#-------------------------------------------------------------
     elif 'commands' in command:
         talktome.talkToMe("You can ask Julia to")
         with open("commandlist") as file:
@@ -335,6 +373,7 @@ def assistant(command, playcounter,totalsongstoplay):
 ######## End Help SectionEND
 
 ######## Miscelaneous
+#-------------------------------------------------------------
     elif 'what\'s up' in command:
         talktome.talkToMe('Just doing my thing')
 
