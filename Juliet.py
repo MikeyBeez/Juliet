@@ -66,17 +66,19 @@ def main():
             print('Julia responds:\n')
             # The assistant function performs whatever action is found that matches the variable named "output."
             # Also, variables are passed in case you ask to play music.
+            #^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+            #^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
             try:
-                julibrain.assistant(output, playcounter, totalsongstoplay, test)
+                julibrain.assistant(output, playcounter, totalsongstoplay)
             except Exception as e:
                 print(e)
+            #^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+            #^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
             # Whatever you said is printed out, so you can see what Julie understood.
             # This will help you speak more clearly, if you see she doesn't understand.
             print(output)
 
-        elif '""' in output:
-            pass
 # END MAIN FUNCTION
 
 # None of the code up above this line runs unless main is called.
