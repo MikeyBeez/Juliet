@@ -24,14 +24,10 @@ import initualizejuliet as ij
 
 
 def myVars():
-    # Current working directory.
-    myDir = os.getcwd()
-    # Global variables that control how many songs are played at a time (Julia play music.)
-    global playcounter
-    playcounter = 1
-    # totalsongstoplay is set below in main()
+    # Global variables that control how many songs are played at a time for "Julia play music."
+    global playcounter 
+    # Totalsongstoplay used below in main().
     global totalsongstoplay
-    test = 0
 ################################################################################################
 # End myVars.
 
@@ -41,13 +37,14 @@ def myVars():
 def main():
     # Initialize.
     myVars()
+    playcounter = 1
+    # This is where to set the number of songs to play when you say "Julie play music."
+    totalsongstoplay = 2
     try:
         # kaldi.Recognizer requires a model.  Make sure we have it.  Otherwise say where to get it.
         ij.CheckMyModel()
     except SystemExit as e:
         print(e)
-    # This is where to set the number of songs to play when you say "Julie play music."
-    totalsongstoplay = 2
     # End initialize.
 
     # Say and print some helpful infomtion.
@@ -64,12 +61,18 @@ def main():
         # It also gets whatever else you said, like "Julie what's up?""
         if 'juli' in output:
             print('Julia responds:\n')
+
             # The assistant function performs whatever action is found that matches the variable named "output."
+            
             # Also, variables are passed in case you ask to play music.
+           
+            # Don't run code for unit testing
+
+            runtest = False
             #^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
             #^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
             try:
-                julibrain.assistant(output, playcounter, totalsongstoplay)
+                julibrain.assistant(output, playcounter, totalsongstoplay, runtest)
             except Exception as e:
                 print(e)
             #^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

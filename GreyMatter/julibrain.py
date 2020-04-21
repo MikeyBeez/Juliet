@@ -69,7 +69,7 @@ def checkIfProcessRunning(processName):
 # BEGIN GIGANTIC ASSISTANT FUNCTION
 
 
-def assistant(command, playcounter, totalsongstoplay):
+def assistant(command, playcounter, totalsongstoplay, runtest):
     '''
     Check if command exists and execute corresponding action.  
     '''
@@ -85,8 +85,8 @@ def assistant(command, playcounter, totalsongstoplay):
         webbrowser.open(url)
         print('Done!')
         talktome.talkToMe('reddit is opening.')
-    #    if test == 1:
-    #        return webbrowser.Error
+        if runtest:
+            return webbrowser.Error
 # -------------------------------------------------------------
 # ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
