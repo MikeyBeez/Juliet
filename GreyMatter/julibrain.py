@@ -1,3 +1,6 @@
+    '''
+    The julibrain module contains command-word/action pairs.
+    '''
 # Import all the required modules.
 # Pyaudio is for the microphone and may be required by mpg123.
 # Pyautogui is for moving the mouse around robotically and automating key presses.
@@ -45,19 +48,19 @@ from SpeakAndHear import talktome
 # Then if I break something, I'll know right away.
 
 
-def checkIfProcessRunning(processName):
-    '''
-    Check if there is any running process that contains the given name processName.
-    '''
-    # Iterate over the all the running process
-    for proc in psutil.process_iter():
-        try:
-            # Check if process name contains the given name string.
-            if processName.lower() in proc.name().lower():
-                return True
-        except (psutil.NoSuchProcess, psutil.AccessDenied, psutil.ZombieProcess):
-            pass
-    return False
+#def checkIfProcessRunning(processName):
+#    '''
+#    Check if there is any running process that contains the given name processName.
+#    '''
+#    # Iterate over the all the running process
+#    for proc in psutil.process_iter():
+#        try:
+#            # Check if process name contains the given name string.
+#            if processName.lower() in proc.name().lower():
+#                return True
+#        except (psutil.NoSuchProcess, psutil.AccessDenied, psutil.ZombieProcess):
+#            pass
+#    return False
 ###############################################################################################
 # End Check if a process is already running
 
