@@ -1,5 +1,5 @@
 from flask import Flask, render_template
-from flask_socketio import SocketIO
+#from flask_socketio import SocketIO
 
 # Juliet
 #from melissa.profile_loader import load_profile
@@ -7,9 +7,9 @@ from flask_socketio import SocketIO
 #from melissa.brain import query
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = 'secret!'
-app.debug = True
-socketio = SocketIO(app)
+#app.config['SECRET_KEY'] = 'secret!'
+#app.debug = True
+#socketio = SocketIO(app)
 
 
 @app.route("/")
@@ -17,9 +17,9 @@ def hello():
     return render_template('index.html')
 
 
-@socketio.on('user speaks')
-def handle_json(json):
-    pass
+#@socketio.on('user speaks')
+#def handle_json(json):
+#    pass
 #    speech_text = json['data']
 #    print('Melissa thinks you said: ' + speech_text)
 
@@ -31,11 +31,13 @@ def handle_json(json):
 #        query(speech_text)
 
 
-def main():
+#def main():
 #    data = load_profile(True)
 #    tts('Welcome ' + data['name'] + ', how can I help you?')
-    socketio.run(app)
+#    socketio.run(app)
 
 
 if __name__ == '__main__':
-    main()
+    app.run()
+#    main()
+

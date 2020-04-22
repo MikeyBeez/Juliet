@@ -1,23 +1,24 @@
 <!doctype html>
 <html>
-<head>
-    <meta charset="utf-8">
-    <title>julijuli | Juliet</title>
-    <link  rel="stylesheet" href="{{ url_for('static', filename = 'css/all.css') }}" type="text/css" />
-</head>
-
-<body>
-    <audio>
-        <source src="{{ url_for('static', filename = 'sounds/multimedia_rollover_046.mp3') }}" type="audio/mpeg">
-        <source src="{{ url_for('static', filename = 'sounds/multimedia_rollover_048.mp3') }}" type="audio/mpeg">
-        <source src="{{ url_for('static', filename = 'sounds/osd-text-10.mp3') }}" type="audio/mpeg">
-        <source src="{{ url_for('static', filename = 'sounds/robot_movement_6.mp3') }}" type="audio/mpeg">
-        <source src="{{ url_for('static', filename = 'sounds/servo_motor.mp3') }}" type="audio/mpeg">
-        <source src="{{ url_for('static', filename = 'sounds/simple_beep_nav.mp3') }}" type="audio/mpeg">
-        <source src="{{ url_for('static', filename = 'sounds/slanesh__bip.mp3') }}" type="audio/mpeg">
-        <source src="{{ url_for('static', filename = 'sounds/soft_chime_beep.mp3') }}" type="audio/mpeg">
-        <source src="{{ url_for('static', filename = 'sounds/tranzistor_nav.mp3') }}" type="audio/mpeg">
-    </audio>   
+    <head>
+            <meta charset="utf-8">
+            <title>julijuli | Juliet</title>
+        #    <link  rel="stylesheet" href="{{ url_for('static', filename = 'css/all.css') }}" type="text/css" />
+        </head>
+        #
+        <body>
+            <h1>Hello!</h1>
+#    <audio>
+#        <source src="{{ url_for('static', filename = 'sounds/multimedia_rollover_046.mp3') }}" type="audio/mpeg">
+    #        <source src="{{ url_for('static', filename = 'sounds/multimedia_rollover_048.mp3') }}" type="audio/mpeg">
+        #        <source src="{{ url_for('static', filename = 'sounds/osd-text-10.mp3') }}" type="audio/mpeg">
+            #        <source src="{{ url_for('static', filename = 'sounds/robot_movement_6.mp3') }}" type="audio/mpeg">
+                #        <source src="{{ url_for('static', filename = 'sounds/servo_motor.mp3') }}" type="audio/mpeg">
+#        <source src="{{ url_for('static', filename = 'sounds/simple_beep_nav.mp3') }}" type="audio/mpeg">
+#        <source src="{{ url_for('static', filename = 'sounds/slanesh__bip.mp3') }}" type="audio/mpeg">
+#        <source src="{{ url_for('static', filename = 'sounds/soft_chime_beep.mp3') }}" type="audio/mpeg">
+#        <source src="{{ url_for('static', filename = 'sounds/tranzistor_nav.mp3') }}" type="audio/mpeg">
+#    </audio>   
     #<div id="wrapper" onclick="jarvisRecog();">
     #    <div class="soundCont"></div>
     #    <div class="soundCont1"></div>
@@ -66,11 +67,10 @@
     #        <div class="footerGraphUnit"></div>
     #    </div>
     #</div>
-</body>
-<h1>Hello!</h1>
+        </body>
 #<script type="text/javascript" src="{{ url_for('static', filename = 'js/socket.io.min.js') }}"></script>
 
-#<script>
+# < iscript >
 #var socket = io.connect('http://' + document.domain + ':' + location.port);
 #function speechHandler(){
 #	var recognition = new (webkitSpeechRecognition)();
@@ -86,7 +86,7 @@
 #
 #	};
 #}
-
+#
 #socket.on('melissa replies', function(test) {
 #	$('#imgGalMid').airport([test]);
 #});
