@@ -1,6 +1,6 @@
-    '''
-    The julibrain module contains command-word/action pairs.
-    '''
+'''
+   The julibrain module contains command-word/action pairs.
+'''
 # Import all the required modules.
 # Pyaudio is for the microphone and may be required by mpg123.
 # Pyautogui is for moving the mouse around robotically and automating key presses.
@@ -21,6 +21,7 @@
 # (Possibly delete "import GreyMatter.")
 
 ################################################################################################
+
 import pyaudio
 import pyautogui
 import subprocess
@@ -98,9 +99,12 @@ def assistant(command, playcounter, totalsongstoplay, runtest):
 # -------------------------------------------------------------
     if 'open youtube' in command:
         url = 'https://www.youtube.com/'
-        webbrowser.open(url)
-        print('Done!')
-        talktome.talkToMe('youtube is opening.')
+        if not runtest:
+            webbrowser.open(url)
+            print('Done!')
+            talktome.talkToMe('youtube is opening.')
+        if runtest:
+            return url
 # -------------------------------------------------------------
 # ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -124,6 +128,7 @@ def assistant(command, playcounter, totalsongstoplay, runtest):
         pyautogui.moveTo(777, 777, duration=.4)
         pyautogui.click()
         pyautogui.click()
+        return url
 # -------------------------------------------------------------
 # ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
