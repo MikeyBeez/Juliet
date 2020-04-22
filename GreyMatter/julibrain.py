@@ -82,11 +82,12 @@ def assistant(command, playcounter, totalsongstoplay, runtest):
 # -------------------------------------------------------------
     if 'open reddit' in command:
         url = 'https://www.reddit.com/'
-        webbrowser.open(url)
-        print('Done!')
-        talktome.talkToMe('reddit is opening.')
+        if not runtest:
+            webbrowser.open(url)
+            print('Done!')
+            talktome.talkToMe('reddit is opening.')
         if runtest:
-            return webbrowser.Error
+            return url
 # -------------------------------------------------------------
 # ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -249,7 +250,7 @@ def assistant(command, playcounter, totalsongstoplay, runtest):
             # end new code
             if playcounter < totalsongstoplay:
                 playcounter = playcounter + 1
-                assistant(command, playcounter, totalsongstoplay)
+                assistant(command, playcounter, totalsongstoplay, runtest)
             # end if
             playcounter = 1
 # -------------------------------------------------------------
