@@ -1,6 +1,7 @@
 '''
    The julibrain module contains command-word/action pairs.
 '''
+
 # Import all the required modules.
 # Pyaudio is for the microphone and may be required by mpg123.
 # Pyautogui is for moving the mouse around robotically and automating key presses.
