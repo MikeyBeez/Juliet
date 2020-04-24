@@ -49,6 +49,14 @@ from SpeakAndHear import talktome
 # All her commands and logic are called here.
 ###############################################################################################
 
+def cleanj(command):
+    command = command.replace("julia", "")
+    command = command.replace("julie", "")
+    command = command.replace("julie julie", "")
+    command = command.replace("julius", "")
+    command = command.replace("look up", "")
+    return command
+
 # BEGIN GIGANTIC ASSISTANT FUNCTION
 
 
@@ -170,20 +178,14 @@ def assistant(command, playcounter, totalsongstoplay, runtest):
 
 # Query Stuff
 # -------------------------------------------------------------
-    elif 'wikipedia' in command:
+    elif 'full' in command:
         talktome.talkToMe("Searching Wikipedia . . . ")
-        command = command.replace("julia", "")
-        command = command.replace("julius", "")
-        command = command.replace("wikipedia", "")
-        try:
-            results = wikipedia.summary(command)
-            wikiurl = wikipedia.page(command)
-            webbrowser.open_new_tab(wikiurl.url)
-            print(results)
-            talktome.talkToMe(results)
-        except:
-            print("Disambiguation error")
-            talktome.talkToMe("Disambiguation error")
+        command = cleanj(command)
+        results = wikipedia.summary(command)
+        wikiurl = wikipedia.page(command)
+        webbrowser.open_new_tab(wikiurl.url)
+        print(results)
+        talktome.talkToMe(results)
 # -------------------------------------------------------------
 # ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -191,12 +193,9 @@ def assistant(command, playcounter, totalsongstoplay, runtest):
 # -------------------------------------------------------------
     elif 'look' in command:
         talktome.talkToMe("Searching Wikipedia . . . ")
-        command = command.replace("julia", "")
-        command = command.replace("julius", "")
-        command = command.replace("look up", "")
+        command = cleanj(command)
         results = wikipedia.summary(command, sentences=3)
         wikiurl = wikipedia.page(command)
-        print(wikiurl.url)
         webbrowser.open_new_tab(wikiurl.url)
         print(results)
         talktome.talkToMe(results)
