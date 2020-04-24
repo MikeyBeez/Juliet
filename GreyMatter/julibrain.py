@@ -435,5 +435,5 @@ def assistant(command, playcounter, totalsongstoplay, runtest):
 
 # End Miscelaneous Section
 
-# END GIGANTIC ASSISTANT FUNCTION
+# END GIGANTIC ASSISTANT FUNCTION -- as of 4/24/20, there are 26 commands in this brain.
 ###############################################################################################
