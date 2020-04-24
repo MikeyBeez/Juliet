@@ -7,7 +7,7 @@ I haven't tested on other Linuxes, but she should run fine.
 I recommend doing everything inside a virtual environment.  
 I use miniconda, but Anaconda or Venv or Virtualenv should all work fine.  
 I have a modern Logitek Webcam and integrated microphone, but any microphone should work.
-The pyaudio program is used to access the microphone.  
+The pyaudio python module is used to access the microphone.  
 Juliet requires quite a other few packages and programs to run as well as some customization for your system. 
 For example, where your songs are needs to be configured. 
 I have a lot of programs and modules installed.  
@@ -50,10 +50,12 @@ I make a conda environment from the included yaml file. I'm using python 3.6.1  
 I need to cleanup this yaml file.  It has all my site packages too.
 The frustrating part is that I will need to set this up from scratch in a virtual machine before it's ready for the wild.  Then I can prune this down to the minimum.   
 
-I built kaldi from source.  I still don't know if this step is required.  vosk may have everything that's needed.  If you do build kaldi, I have a video to help do that.  It will point you to the kaldi tutorial and installation docs.  I recommend reading the kaldi git tutorial before you start, so that you fork and then clone properly.  
+I built kaldi from source.  It's absolutely NOT necessary to build kaldi. vosk has everything that's needed.  If you do build kaldi, I have a video to help do that.  It will point you to the kaldi tutorial and installation docs.  I recommend reading the kaldi git tutorial before you start, so that you fork and then clone properly.  
 https://www.youtube.com/watch?v=Kky-mdzYLq4
 
-You also need to clone vosk-api so that you'll have the demo code.  Get it on github.  Pypi has the right repo, so look there for the url.  
+You also need to clone vosk-api so that you'll have the demo code.  Get it on github.  
+Pypi has the right repo, so look there for the url.  
+It's a good idea to run the demo code to make sure vosk is working before you move on.   
 
 The vosk module for python is installed with pip3.  It's in the yaml file; so you shouldn't need to do this.  "pip list| grep -i vosk"  will show you if it's installed.  I install pip3 models this way: 
 
