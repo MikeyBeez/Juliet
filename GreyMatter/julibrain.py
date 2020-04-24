@@ -1,5 +1,8 @@
+
+
 '''
    The julibrain module contains command-word/action pairs.
+
 '''
 
 # Import all the required modules.
@@ -137,7 +140,7 @@ def assistant(command, playcounter, totalsongstoplay, runtest):
 # -------------------------------------------------------------
 # ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-# Next command
+# Next command will open a new terminal, and tile it to the right.
 # -------------------------------------------------------------
     elif 'terminal' in command:
         # subprocess.call(["terminator"])
@@ -148,7 +151,8 @@ def assistant(command, playcounter, totalsongstoplay, runtest):
 # -------------------------------------------------------------
 # ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-# Next command
+# Next command will open a website in browser.  
+# Rememder to use the fully qualified name.
 # -------------------------------------------------------------
     elif 'open website' in command:
         reg_ex = re.search('open website (.+)', command)
@@ -199,7 +203,9 @@ def assistant(command, playcounter, totalsongstoplay, runtest):
 # -------------------------------------------------------------
 # ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-# Next command
+# Play your music
+# Next command will choose random songs.  
+# Set the number of songs in Juliet.py.  For example: totalsongstoplay = 2
 # -------------------------------------------------------------
     elif 'music' in command:
         if playcounter == 1:
@@ -240,11 +246,10 @@ def assistant(command, playcounter, totalsongstoplay, runtest):
 # -------------------------------------------------------------
 # ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-
-# Next command
 # End Query Stuff
 
 # Polite Stuff
+# Next command responds to Hi or Hello.
 # -------------------------------------------------------------
     elif 'hello' in command or 'hi' in command:
         talktome.talkToMe(
@@ -256,7 +261,7 @@ def assistant(command, playcounter, totalsongstoplay, runtest):
 # ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 
-# Next command
+# Next command responds to thanks.
 # -------------------------------------------------------------
     elif 'thanks' in command or 'tanks' in command or 'thank you' in command:
         talktome.talkToMe('You are welcome')
@@ -264,17 +269,7 @@ def assistant(command, playcounter, totalsongstoplay, runtest):
 # -------------------------------------------------------------
 # ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-
-# Next command
-# -------------------------------------------------------------
-    # elif 'julia' in command:
-    #    talkToMe('Yes Sir? What can I do for you sir?')
-    #    print('Yes Sir? What can I do for you sir?')
-# -------------------------------------------------------------
-# ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-
-# Next command
+# Next command chit chat
 # -------------------------------------------------------------
     elif 'how are you' in command or 'and you' in command or 'are you okay' in command:
         talktome.talkToMe('Fine thank you.')
@@ -282,16 +277,14 @@ def assistant(command, playcounter, totalsongstoplay, runtest):
 # -------------------------------------------------------------
 # ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-
 # End Polite Stuff
 
-# HAL Stuff
+# Just for fun, HAL Stuff
 # -------------------------------------------------------------
     elif 'open the pod door' in command:
         talktome.talkToMe('I am sorry, Dave. I am afraid I can not do that.')
 # -------------------------------------------------------------
 # ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
 
 # Next command
 # -------------------------------------------------------------
@@ -299,7 +292,6 @@ def assistant(command, playcounter, totalsongstoplay, runtest):
         talktome.talkToMe('I think you know as well as I do')
 # -------------------------------------------------------------
 # ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
 
 # Next command
 # -------------------------------------------------------------
@@ -309,7 +301,6 @@ def assistant(command, playcounter, totalsongstoplay, runtest):
 # -------------------------------------------------------------
 # ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-
 # Next command
 # -------------------------------------------------------------
     elif 'why do you say that' in command:
@@ -318,17 +309,14 @@ def assistant(command, playcounter, totalsongstoplay, runtest):
 # -------------------------------------------------------------
 # ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-
 # End HAL Stuff
 
 # System Commands
 # -------------------------------------------------------------
-
     elif 'shutdown' in command:
         subprocess.call(["shutdown -h now"])
 # -------------------------------------------------------------
 # ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
 
 # Next command
 # -------------------------------------------------------------
@@ -338,10 +326,8 @@ def assistant(command, playcounter, totalsongstoplay, runtest):
 # -------------------------------------------------------------
 # ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-
 # Next command
 # -------------------------------------------------------------
-
     elif 'stop' in command or 'stopped' in command or "listening" in command:
         talktome.talkToMe("Goodbye, Sir, powering off")
         print("Goodbye, Sir, powering off")
@@ -349,17 +335,14 @@ def assistant(command, playcounter, totalsongstoplay, runtest):
 # -------------------------------------------------------------
 # ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-
 # End System Commands
 
-# Interface With Desktop
+# Interface With Desktop -- clicking, tiling windows, and maximize.
 # -------------------------------------------------------------
-
     elif 'click' in command:
         pyautogui.click()
 # -------------------------------------------------------------
 # ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
 
 # Next command
 # -------------------------------------------------------------
@@ -368,7 +351,6 @@ def assistant(command, playcounter, totalsongstoplay, runtest):
 # -------------------------------------------------------------
 # ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-
 # Next command
 # -------------------------------------------------------------
     elif 'middle' in command:
@@ -376,8 +358,7 @@ def assistant(command, playcounter, totalsongstoplay, runtest):
 # -------------------------------------------------------------
 # ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-
-# Next command
+# Next command -- tile window to the right.
 # -------------------------------------------------------------
     elif 'right' in command:
         pyautogui.moveTo(400, 400, duration=.1)
@@ -386,8 +367,7 @@ def assistant(command, playcounter, totalsongstoplay, runtest):
 # -------------------------------------------------------------
 # ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-
-# Next command
+# Next command -- tile window to the left.
 # -------------------------------------------------------------
     elif 'left' in command:
         pyautogui.moveTo(2200, 1000, duration=.1)
@@ -396,18 +376,16 @@ def assistant(command, playcounter, totalsongstoplay, runtest):
 # -------------------------------------------------------------
 # ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-
-# Next command
+# Next command -- maximize window.
+# This is used a lot so that pyautogui can find controls.
 # -------------------------------------------------------------
-
     elif 'maximize' in command:
         pyautogui.click()
         pyautogui.hotkey('winleft', 'up')
 # -------------------------------------------------------------
 # ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-
-# Next command
+# Next command -- minimize window (hide.)
 # -------------------------------------------------------------
     elif 'minimize' in command:
         pyautogui.click()
@@ -415,27 +393,26 @@ def assistant(command, playcounter, totalsongstoplay, runtest):
 # -------------------------------------------------------------
 # ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-
 # End Interface With Desktop
 
 # Help Section
 # -------------------------------------------------------------
     elif 'help' in command:
-        #talkToMe("There are three different wake words")
         talktome.talkToMe("The wake word is Julia")
         talktome.talkToMe("You can also use Juliet, Julius, or Julie")
-        talktome.talkToMe("You can always say JULIA HELP.")
+        talktome.talkToMe("Julie Julie works best, however")
+        talktome.talkToMe("You can always say Julie Julie HELP.")
         talktome.talkToMe("Julia also runs the listed commands that follow")
-        talktome.talkToMe("Also, you can always say JULIA list commands.")
+        talktome.talkToMe("Also, you can always say Julie Julie list commands.")
         talktome.talkToMe("You can ask Julia to")
         with open("commandlist") as file:
             for line in file:
-                #line = line.strip()
                 talktome.talkToMe(line)
 # -------------------------------------------------------------
 # ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-# Next command
+# Next command -- list commands uses the commandlist file
+# If you add commands to juliebrain.py, also ad the command name to commandlist.
 # -------------------------------------------------------------
     elif 'commands' in command:
         talktome.talkToMe("You can ask Julia to")
@@ -446,16 +423,15 @@ def assistant(command, playcounter, totalsongstoplay, runtest):
 # -------------------------------------------------------------
 # ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+# End Help Section
 
-# End Help SectionEND
-
-# Miscelaneous
+# Miscelaneous -- Because it's short and runs fast,
+# this is a great command to test the system.
 # -------------------------------------------------------------
     elif 'what\'s up' in command:
         talktome.talkToMe('Just doing my thing')
 # -------------------------------------------------------------
 # ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
 
 # End Miscelaneous Section
 
