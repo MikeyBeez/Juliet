@@ -1,14 +1,31 @@
 # Juliet
 
-At the moment, I am beginning to port this over from my Otto3 repository on Github.  Google's gTTS has a female voice; so calling her Otto makes no sense.  It's also an opportunity to refactor my code, and cleanup the installation process. That means this repo is not ready for prime time.  That being said, if you can set up your environment correctly, this code does work and works well -- on my computer at least.
-
-Juliet answers to any name starting Juli.  So you can say "Julie Help," or "Juliet Help," or "Julius Help."  However "Julie Julie Help" works best. ;) 
-
 Virtual Assistant with STT and TTS
 
-Juliet requires quite a few packages and programs to run as well as some customization for your system, for exampe, where your songs are. I've built Juliet on Ubuntu 18.04.  I have a modern Logitek Webcam and integrated microphone, but any microphone should work.  The pyaudio program is used to access the microphone.  I recommend doing everything inside a virtual environment.  I use miniconda.  BTW, I am programming this at home.  I don't have a team, and I don't have a lab with multiple systems with different linuxes and different hardware.  I have a lot of programs and modules installed.  I don't know how my particular system is effecting this program as a unique environment.  Therefore, I'd be very interested in hearing about your experiences.  You can create a Github issue in this repository to leave your experiences.  
+I've built Juliet on Ubuntu 18.04.
+I haven't tested on other Linuxes, but she should run fine.
+I recommend doing everything inside a virtual environment.  
+I use miniconda, but Anaconda or Venv or Virtualenv should all work fine.  
+I have a modern Logitek Webcam and integrated microphone, but any microphone should work.
+The pyaudio program is used to access the microphone.  
+Juliet requires quite a other few packages and programs to run as well as some customization for your system. 
+For example, where your songs are needs to be configured. 
+I have a lot of programs and modules installed.  
+I've done a lot of cleanup of my yaml requirements file, but I can't say exactly what your environment will require.
+After I build this again on a virtual machine, I should know this exactly.  
+BTW, I am programming this at home.  
+I don't have a team, and I don't have a lab with multiple systems with different linuxes and different hardware.  
+I don't know how my particular system is effecting this program as a unique environment.  
+Therefore, I'd be very interested in hearing about your experiences.  
+You can create a Github issue in this repository to leave your experiences.  
 
-I've noticed that some modules are not showing up in my Juliet.yaml file, so check all the import statements in Juliet.py as well as all the submodules like initializejuliet.py and the modules in the GreyMatter and SpeakAndHear subdirectories. You can manually pip install them into your virtual environment.  
+I've noticed that some modules are not showing up in my Juliet.yaml file, 
+so check all the import statements in Juliet.py as well as all the submodules like initializejuliet.py 
+and the modules in the GreyMatter and SpeakAndHear subdirectories. 
+You can manually pip install them into your virtual environment.  
+I've created a file called imports.txt by recursively grepping for import import statements.
+After running your conda env create --file=Juliet.yaml command, 
+look imports.txt over, and make sure to install all the packages missing from a pip list.
 
 Juliet requires git and python3. I use miniconda to create a virtual environment. On my own system, I create a directory.  You should fork my repository,  Then clone your fork. 
   
