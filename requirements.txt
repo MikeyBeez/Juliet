@@ -196,7 +196,7 @@ wcwidth==0.1.7
 web-cache==1.1.0
 webencodings==0.5
 websocket==0.2.1
-Werkzeug==0.14.1
+Werkzeug==0.15.3
 wikipedia==1.4.0
 wrapt==1.11.2
 xkit==0.0.0
