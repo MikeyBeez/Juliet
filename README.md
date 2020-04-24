@@ -63,3 +63,30 @@ python3 -m pip install vosk
 
 I've included a file called mymusiclist.txt that has paths to mp3 files.  This file is for music on an example system.  It shows how filenames need to be formated and "escaped."  To play your own mp3 files, create your own list of files and call it mymusiclist.txt.   
 
+All the code is heavily commented; so it should be easy to follow.  I like to think this project is a bit like a how to book with instructions and explainations in place where you need them.
+
+
+From a command prompt, you can run startJuliet.sh.  
+This shell script runs Juliet.py with standard error redirected to /dev/null.  
+You can run /home/bard/miniconda3/envs/Juliet/bin/python /home/bard/Code/Juliet/Juliet.py 
+instead (but whatever your paths are,) if you want to look at error messages.  i
+vosk produces a lot of messages, and they're not helpful; 
+so I suggest starting from the shell script.  
+You'll need to put your own paths in there. From within your virtual environment 
+
+"which python3" i
+
+will tell you the path to python3.  
+
+"find ~ -name Juliet.py" 
+
+will get you the path to Juliet.py.
+
+Juliet.py imports modules from two subdirectories,
+GreyMatter and SpeakAndHear.
+
+This system also uses commandlist and mymusiclist.txt for information.
+
+That's the general archtecture of this program so far; so it's not too complicated.  
+
+Other files aren't being used yet.  
