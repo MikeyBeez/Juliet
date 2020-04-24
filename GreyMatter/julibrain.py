@@ -160,6 +160,9 @@ def assistant(command, playcounter, totalsongstoplay, runtest):
 # ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 # Next command will open a website in browser.  
+# This is the general way to open ANY website.
+# It uses the re (regular expressions) module.   
+# Learn this one.  
 # Rememder to use the fully qualified name.
 # -------------------------------------------------------------
     elif 'open website' in command:
@@ -177,28 +180,21 @@ def assistant(command, playcounter, totalsongstoplay, runtest):
 # End Open Stuff
 
 # Query Stuff
-# -------------------------------------------------------------
-    elif 'full' in command:
-        talktome.talkToMe("Searching Wikipedia . . . ")
-        command = cleanj(command)
-        results = wikipedia.summary(command)
-        wikiurl = wikipedia.page(command)
-        webbrowser.open_new_tab(wikiurl.url)
-        print(results)
-        talktome.talkToMe(results)
-# -------------------------------------------------------------
-# ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 # Next command
 # -------------------------------------------------------------
     elif 'look' in command:
         talktome.talkToMe("Searching Wikipedia . . . ")
         command = cleanj(command)
-        results = wikipedia.summary(command, sentences=3)
+        #results = wikipedia.summary(command, sentences=3)
+        results = wikipedia.summary(command)
         wikiurl = wikipedia.page(command)
         webbrowser.open_new_tab(wikiurl.url)
         print(results)
-        talktome.talkToMe(results)
+        try:
+            talktome.talkToMe(results)
+        except KeyboardInterrupt:
+            pass
 # -------------------------------------------------------------
 # ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -278,21 +274,21 @@ def assistant(command, playcounter, totalsongstoplay, runtest):
 
 # End Polite Stuff
 
-# Just for fun, HAL Stuff
+# Just for fun, HAL Stuff not listed in commandlist or commandlist.html.
 # -------------------------------------------------------------
     elif 'open the pod door' in command:
         talktome.talkToMe('I am sorry, Dave. I am afraid I can not do that.')
 # -------------------------------------------------------------
 # ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-# Next command
+# Next command HAL stuff
 # -------------------------------------------------------------
     elif 'problem' in command:
         talktome.talkToMe('I think you know as well as I do')
 # -------------------------------------------------------------
 # ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-# Next command
+# Next command HAL stuff
 # -------------------------------------------------------------
     elif 'talkin' in command:
         talktome.talkToMe('This mission is too important.')
@@ -300,7 +296,7 @@ def assistant(command, playcounter, totalsongstoplay, runtest):
 # -------------------------------------------------------------
 # ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-# Next command
+# Next command HAL stuff
 # -------------------------------------------------------------
     elif 'why do you say that' in command:
         talktome.talkToMe('I know that you want to disconnect me.')
@@ -310,14 +306,14 @@ def assistant(command, playcounter, totalsongstoplay, runtest):
 
 # End HAL Stuff
 
-# System Commands
+# System Commands -- This saves time at the end of the day.
 # -------------------------------------------------------------
     elif 'shutdown' in command:
         subprocess.call(["shutdown -h now"])
 # -------------------------------------------------------------
 # ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-# Next command
+# Next command -- REBOOT!
 # -------------------------------------------------------------
 
     elif 'reboot' in command:
@@ -325,7 +321,7 @@ def assistant(command, playcounter, totalsongstoplay, runtest):
 # -------------------------------------------------------------
 # ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-# Next command
+# Next command -- Stop Juliet completely.
 # -------------------------------------------------------------
     elif 'stop' in command or 'stopped' in command or "listening" in command:
         talktome.talkToMe("Goodbye, Sir, powering off")
@@ -334,30 +330,30 @@ def assistant(command, playcounter, totalsongstoplay, runtest):
 # -------------------------------------------------------------
 # ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-# End System Commands
+# End System Commands -- Hands-free clicking.
 
-# Interface With Desktop -- clicking, tiling windows, and maximize.
+# Interface With Desktop -- Clicking, tiling windows, and maximize.
 # -------------------------------------------------------------
     elif 'click' in command:
         pyautogui.click()
 # -------------------------------------------------------------
 # ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-# Next command
+# Next command -- Right click is "other" because "right" tiles a window.
 # -------------------------------------------------------------
     elif 'other' in command:
         pyautogui.rightClick()
 # -------------------------------------------------------------
 # ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-# Next command
+# Next command -- Middle click.
 # -------------------------------------------------------------
     elif 'middle' in command:
         pyautogui.middleClick()
 # -------------------------------------------------------------
 # ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-# Next command -- tile window to the right.
+# Next command -- Tile window to the right.
 # -------------------------------------------------------------
     elif 'right' in command:
         pyautogui.moveTo(400, 400, duration=.1)
@@ -366,7 +362,7 @@ def assistant(command, playcounter, totalsongstoplay, runtest):
 # -------------------------------------------------------------
 # ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-# Next command -- tile window to the left.
+# Next command -- Tile window to the left.
 # -------------------------------------------------------------
     elif 'left' in command:
         pyautogui.moveTo(2200, 1000, duration=.1)
@@ -375,7 +371,7 @@ def assistant(command, playcounter, totalsongstoplay, runtest):
 # -------------------------------------------------------------
 # ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-# Next command -- maximize window.
+# Next command -- Maximize window.
 # This is used a lot so that pyautogui can find controls.
 # -------------------------------------------------------------
     elif 'maximize' in command:
@@ -384,7 +380,7 @@ def assistant(command, playcounter, totalsongstoplay, runtest):
 # -------------------------------------------------------------
 # ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-# Next command -- minimize window (hide.)
+# Next command -- Minimize window (hide.)
 # -------------------------------------------------------------
     elif 'minimize' in command:
         pyautogui.click()
@@ -410,7 +406,7 @@ def assistant(command, playcounter, totalsongstoplay, runtest):
 # -------------------------------------------------------------
 # ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-# Next command -- list commands uses the commandlist file
+# Next command -- List commands uses the commandlist file
 # If you add commands to juliebrain.py, also ad the command name to commandlist.
 # -------------------------------------------------------------
     elif 'commands' in command:
