@@ -1,0 +1,24 @@
+ os
+ gtts import gTTS
+ os
+ pyaudio
+ vosk import Model, KaldiRecognizer
+ flask import Flask, render_template
+ flask_socketio import SocketIO
+ profile_loader import load_profile
+ os
+ urllib2
+ xml.etree.ElementTree as ET
+ unittest
+ subprocess
+ pyaudio
+ pyautogui
+ subprocess
+ os
+ webbrowser
+ time import localtime, strftime, sleep
+ re
+ requests
+ wikipedia
+ random import randrange
+ psutil
