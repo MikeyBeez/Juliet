@@ -90,3 +90,9 @@ This system also uses commandlist and mymusiclist.txt for information.
 That's the general archtecture of this program so far; so it's not too complicated.  
 
 Other files aren't being used yet.  
+
+I'm currently working in another repository called socit.  I hope to use Melissa-core's Flask App front-end for Juliette, and that requires understanding flask_socketio.  The dunder main python program __main__.py is from Melissa-core.  You can run it by typing 
+
+<Juliet's python path> __main__.py  
+
+To port this over, I'll need to call Juliet's functions rather than Melissa's.   
