@@ -57,7 +57,7 @@ You also need to clone vosk-api so that you'll have the demo code.  Get it on gi
 Pypi has the right repo, so look there for the url.  
 It's a good idea to run the demo code to make sure vosk is working before you move on.   
 
-The vosk module for python is installed with pip3.  It's in the yaml file; so you shouldn't need to do this.  "pip list| grep -i vosk"  will show you if it's installed.  I install pip3 models this way: 
+The vosk module for python is installed with pip3.  It's in the yaml file; so you shouldn't need to do this.  "pip list| grep -i vosk"  will show you if it's installed.  I install pip3 modules this way: 
 
 python3 -m pip install vosk
 
