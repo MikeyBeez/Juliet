@@ -57,7 +57,7 @@ You also need to clone vosk-api so that you'll have the demo code.  Get it on gi
 Pypi has the right repo, so look there for the url.  
 It's a good idea to run the demo code to make sure vosk is working before you move on.   
 
-The vosk module for python is installed with pip3.  It's in the yaml file; so you shouldn't need to do this.  "pip list| grep -i vosk"  will show you if it's installed.  I install pip3 modules this way: 
+The vosk module for python is installed with pip3.  It's in the yaml file; so you shouldn't need to do this.  "pip list| grep -i vosk"  will show you if it's installed.  Because the pip install wrapper has been deprecated, I install pip3 modules this way: 
 
 python3 -m pip install vosk
 
@@ -69,12 +69,12 @@ All the code is heavily commented; so it should be easy to follow.  I like to th
 From a command prompt, you can run startJuliet.sh.  
 This shell script runs Juliet.py with standard error redirected to /dev/null.  
 You can run /home/bard/miniconda3/envs/Juliet/bin/python /home/bard/Code/Juliet/Juliet.py 
-instead (but whatever your paths are,) if you want to look at error messages.  i
+instead (but whatever your paths are,) if you want to look at error messages.  
 vosk produces a lot of messages, and they're not helpful; 
 so I suggest starting from the shell script.  
 You'll need to put your own paths in there. From within your virtual environment 
 
-"which python3" i
+"which python3" 
 
 will tell you the path to python3.  
 
@@ -85,13 +85,14 @@ will get you the path to Juliet.py.
 Juliet.py imports modules from two subdirectories,
 GreyMatter and SpeakAndHear.
 
-This system also uses commandlist and mymusiclist.txt for information.
+This system also uses the commandlist and mymusiclist.txt files for information.
 
 That's the general archtecture of this program so far; so it's not too complicated.  
 
 Other files aren't being used yet.  
 
-I'm currently working in another repository called socit.  I hope to use Melissa-core's Flask App front-end for Juliette, and that requires understanding flask_socketio.  The dunder main python program __main__.py is from Melissa-core.  You can run it by typing 
+I'm currently working in another repository called socit.  I hope to use Melissa-core's Flask App front-end for Juliette, and that requires understanding flask_socketio.  The dunder main python program __main__.py is from Melissa-core.  It's a very cool hack.  
+Eventually, I hope to make it the front-end.  You can run it by typing the following: 
 
 <Juliet's python path> __main__.py  
 
