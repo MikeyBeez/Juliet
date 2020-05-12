@@ -42,6 +42,7 @@ python-engineio==3.12.1
 python-socketio==4.5.1
 python3-xlib==0.15
 PyTweening==1.0.3
+
 requests==2.23.0
 rope==0.16.0
 six==1.14.0
@@ -50,7 +51,7 @@ subprocess.run==0.0.8
 typed-ast==1.4.1
 typing-extensions==3.7.4.1
 urllib3==1.25.9
-vosk==0.3.3
+vosk
 Werkzeug==1.0.1
 wikipedia==1.4.0
 wrapt==1.11.2
