@@ -1,6 +1,8 @@
 large-model-en
 model-en-large
 model-en-small
+model-en
+small-model-en
 model
 audio.mp3
 .vscode/
