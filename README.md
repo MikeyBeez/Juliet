@@ -102,5 +102,7 @@ Finally, the model directory that I initially had in this repo has been incapaci
 I have switched to a 1.4 GB model that is too big to stick here.
 So you need to get it yourself here:  https://github.com/alphacep/vosk-api/blob/master/doc/models.md
 If you have any trouble installing it, take a look at the issues section of the vosk-api repo.    
+https://github.com/alphacep/vosk-api/issues/98
+
 
 
