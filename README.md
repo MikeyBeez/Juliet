@@ -97,3 +97,10 @@ Eventually, I hope to make it the front-end.  You can run it by typing the follo
 <Juliet's python path> __main__.py  
 
 To port this over, I'll need to call Juliet's functions rather than Melissa's.   
+
+Finally, the model directory that I initially had in this repo has been incapacitated.
+I have switched to a 1.4 GB model that is too big to stick here.
+So you need to get it yourself here:  https://github.com/alphacep/vosk-api/blob/master/doc/models.md
+If you have any trouble installing it, take a look at the issues section of the vosk-api repo.    
+
+
