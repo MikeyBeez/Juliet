@@ -6,6 +6,8 @@
 # I need to create automated tests first using assert statements.
 # Then if I break something, I'll know right away.
 
+import psutil
+
 
 def checkIfProcessRunning(processName):
     '''
