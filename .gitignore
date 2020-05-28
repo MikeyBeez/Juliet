@@ -5,7 +5,6 @@ model-en
 small-model-en
 model
 audio.mp3
-.vscode/
 junk.txt
 # Byte-compiled / optimized / DLL files
 __pycache__/
