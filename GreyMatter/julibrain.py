@@ -24,7 +24,7 @@
 # all the keywords and subsequent actions. I shouldn't need to load this, as I'm in this file already.
 # (Possibly delete "import GreyMatter.")
 
-################################################################################################
+##############################################################
 
 import pyaudio
 import pyautogui
@@ -40,14 +40,14 @@ import psutil
 # import sys  (Possibly delete this line.)
 from SpeakAndHear import talktome
 # from GreyMatter import julibrain  (Possibly delete this line.)
-###############################################################################################
+#############################################################
 # end import statements
-################################################################################################
+##############################################################
 
-###############################################################################################
+#############################################################
 # This is Juliet's brain.
 # All her commands and logic are called here.
-###############################################################################################
+#############################################################
 
 def cleanj(command):
     command = command.replace("julia", "")
@@ -60,7 +60,7 @@ def cleanj(command):
 # BEGIN GIGANTIC ASSISTANT FUNCTION
 
 
-def assistant(command, playcounter, totalsongstoplay, runtest):
+def assistant(command, playcounter, songs2play, runtest):
     '''
     Check if command exists and execute corresponding action.  
     '''
@@ -200,14 +200,14 @@ def assistant(command, playcounter, totalsongstoplay, runtest):
 
 # Play your music
 # Next command will choose random songs.  
-# Set the number of songs in Juliet.py.  For example: totalsongstoplay = 2
+# Set the number of songs in Juliet.py.  For example: songs2play = 2
 # -------------------------------------------------------------
     elif 'music' in command:
         if playcounter == 1:
             talktome.talkToMe("Choosing random song . . . ")
         with open('/home/bard/Code/Juliet/mymusiclist.txt') as f:
             if playcounter == 1:
-                print("Total songs to play " + str(totalsongstoplay) + ".")
+                print("Total songs to play " + str(songs2play) + ".")
             mymusic = f.read().splitlines()
             random_index = randrange(len(mymusic))
             song = mymusic[random_index]
@@ -233,9 +233,9 @@ def assistant(command, playcounter, totalsongstoplay, runtest):
                 print('process terminated')
                 p1.kill()
             # end new code
-            if playcounter < totalsongstoplay:
+            if playcounter < songs2play:
                 playcounter = playcounter + 1
-                assistant(command, playcounter, totalsongstoplay, runtest)
+                assistant(command, playcounter, songs2play, runtest)
             # end if
             playcounter = 1
 # -------------------------------------------------------------
@@ -431,4 +431,4 @@ def assistant(command, playcounter, totalsongstoplay, runtest):
 # End Miscelaneous Section
 
 # END GIGANTIC ASSISTANT FUNCTION -- as of 4/24/20, there are 26 commands in this brain.
-###############################################################################################
+#############################################################

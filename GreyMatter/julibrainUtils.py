@@ -1,4 +1,4 @@
-###############################################################################################
+#############################################################
 # This module is used to check if a process is already running
 # I don't think this is being used anymore.  I may delete it, but I suspect it is very useful.
 # I may move it to a utility module.
@@ -20,5 +20,5 @@ def checkIfProcessRunning(processName):
         except (psutil.NoSuchProcess, psutil.AccessDenied, psutil.ZombieProcess):
             pass
     return False
-###############################################################################################
+#############################################################
 # End Check if a process is already running

@@ -1,4 +1,4 @@
-###############################################################################################
+#############################################################
 ######## TTS TEXT TO SPEECH FUNCTION 
 
 # This gets used all over to speak text aloud.
@@ -21,5 +21,5 @@ def talkToMe(mytext):
         # the sox modules wrapper is mpg123.
         # This is called by the operating system imported os module.
     os.system('mpg123 -q audio.mp3')
-###############################################################################################
+#############################################################
 ######## END TTS TEXT TO SPEECH FUNCTION 
