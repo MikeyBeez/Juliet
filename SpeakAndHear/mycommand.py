@@ -31,3 +31,5 @@ def myCommand():
             return command
 # END STT SPEECH TO TEXT FUNCTION THAT RETURNS THE VARIABLE "command"
 #############################################################
+ 
+
