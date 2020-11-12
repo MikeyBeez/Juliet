@@ -2,7 +2,7 @@
 
 Virtual Assistant with STT and TTS
 
-I've built Juliet on Ubuntu 18.04.
+I'm rebuilding this on Ubuntu 20.04.  I'm actually using Pop!_OS, but that's based on Ubuntu.
 I haven't tested on other Linuxes, but she should run fine.
 I recommend doing everything inside a virtual environment.
 I use miniconda, but Anaconda or Venv or Virtualenv should all work fine.
@@ -11,7 +11,7 @@ The pyaudio python module is used to access the microphone.
 Juliet requires quite a other few packages and programs to run as well as some customization for your system.
 For example, where your songs are needs to be configured.
 I have a lot of programs and modules installed.
-I've done a lot of cleanup of my yaml requirements file, but I can't say exactly what your environment will require.
+I've done a lot of cleanup of my yaml requirements file, but I can't say exactly what your environment will require.  I also have a requirements.txt file.  I'm not sure why I have both.  More cleanup is necessary.  
 After I build this again on a virtual machine, I should know this exactly.
 BTW, I am programming this at home.
 I don't have a team, and I don't have a lab with multiple systems with different linuxes and different hardware.
@@ -25,7 +25,7 @@ and the modules in the GreyMatter and SpeakAndHear subdirectories.
 You can manually pip install them into your virtual environment.
 I've created a file called imports.txt by recursively grepping for import import statements.
 After running your conda env create --file=Juliet.yaml command,
-look imports.txt over, and make sure to install all the packages missing from a pip list.
+look imports.txt (missing -- missed git add) over, and make sure to install all the packages missing from a pip list.
 
 Juliet requires git and python3. I use miniconda to create a virtual environment. On my own system, I create a directory.  You should fork my repository,  Then clone your fork.
 
