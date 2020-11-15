@@ -1,7 +1,9 @@
 #############################################################
 # STT SPEECH TO TEXT FUNCTION THAT RETURNS THE VARIABLE "command"
 import pyaudio
-from vosk import Model, KaldiRecognizer
+from vosk import Model, KaldiRecognizer, SetLogLevel
+
+SetLogLevel(-10)
 
 
 def myCommand():
@@ -15,7 +17,7 @@ def myCommand():
     # MyFPB = 8000
     stream = p.open(format=pyaudio.paInt16, channels=1, rate=16000, input=True, frames_per_buffer=8000)
     stream.start_stream()
-    model = Model("model-en")
+    model = Model("model")
     rec = KaldiRecognizer(model, 16000)
     while True:
         data = stream.read(2000)
