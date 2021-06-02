@@ -50,7 +50,7 @@ soupsieve==2.0
 subprocess.run==0.0.8
 typed-ast==1.4.1
 typing-extensions==3.7.4.1
-urllib3==1.25.9
+urllib3==1.26.5
 vosk
 Werkzeug==1.0.1
 wikipedia==1.4.0
