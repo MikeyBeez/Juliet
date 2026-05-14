@@ -43,7 +43,7 @@ python-socketio==4.5.1
 python3-xlib==0.15
 PyTweening==1.0.3
 
-requests==2.23.0
+requests==2.33.0
 rope==0.16.0
 six==1.14.0
 soupsieve==2.0
