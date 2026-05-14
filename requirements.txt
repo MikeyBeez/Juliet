@@ -39,7 +39,7 @@ PyQt5-sip==12.7.2
 PyRect==0.1.4
 PyScreeze==0.1.26
 python-engineio==3.12.1
-python-socketio==4.5.1
+python-socketio==5.14.0
 python3-xlib==0.15
 PyTweening==1.0.3
 
